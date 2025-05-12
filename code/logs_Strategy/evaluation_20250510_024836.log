@@ -1,0 +1,141 @@
+2025-05-10 02:48:36,206 - INFO - 日志系统初始化完成
+2025-05-10 02:48:36,206 - INFO - 验证数据加载成功 - 样本数: 10
+2025-05-10 02:48:36,206 - INFO - 
+===== 评估策略: expert_instruction_id_first_plain ======
+2025-05-10 02:48:36,206 - INFO - 
+===== 开始评估策略: expert_instruction_id_first_plain ======
+2025-05-10 02:48:36,234 - INFO - 开始第 1/10 次评估
+2025-05-10 02:48:36,237 - WARNING - 样本 1 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,237 - WARNING - 样本 8 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 9 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 4 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 0 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 7 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 3 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 6 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 2 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 5 (Trial 1) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - INFO - 开始第 2/10 次评估
+2025-05-10 02:48:36,246 - WARNING - 样本 5 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 1 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 8 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 4 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 7 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 3 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 0 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 6 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 2 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - WARNING - 样本 9 (Trial 2) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,246 - INFO - 开始第 3/10 次评估
+2025-05-10 02:48:36,247 - WARNING - 样本 1 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 8 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 9 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 4 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 0 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 7 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 3 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 6 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 2 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 5 (Trial 3) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - INFO - 开始第 4/10 次评估
+2025-05-10 02:48:36,247 - WARNING - 样本 5 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 1 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 8 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 4 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 7 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 3 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 0 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 6 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 2 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 9 (Trial 4) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - INFO - 开始第 5/10 次评估
+2025-05-10 02:48:36,247 - WARNING - 样本 1 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 8 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 9 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 4 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 0 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 7 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 3 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 6 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 2 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,247 - WARNING - 样本 5 (Trial 5) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - INFO - 开始第 6/10 次评估
+2025-05-10 02:48:36,248 - WARNING - 样本 5 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 1 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 8 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 4 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 7 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 3 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 0 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 6 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 2 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 9 (Trial 6) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - INFO - 开始第 7/10 次评估
+2025-05-10 02:48:36,248 - WARNING - 样本 1 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 8 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 9 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 4 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 0 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 7 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 3 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 6 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 2 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 5 (Trial 7) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - INFO - 开始第 8/10 次评估
+2025-05-10 02:48:36,248 - WARNING - 样本 5 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 1 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,248 - WARNING - 样本 8 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 4 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 7 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 3 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 0 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 6 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 2 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 9 (Trial 8) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - INFO - 开始第 9/10 次评估
+2025-05-10 02:48:36,249 - WARNING - 样本 1 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 8 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 9 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 4 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 0 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 7 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 3 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 6 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 2 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 5 (Trial 9) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - INFO - 开始第 10/10 次评估
+2025-05-10 02:48:36,249 - WARNING - 样本 5 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 1 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 8 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 4 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 7 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 3 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 0 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 6 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 2 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - WARNING - 样本 9 (Trial 10) 出错: construct_prompt() takes 1 positional argument but 2 were given
+2025-05-10 02:48:36,249 - INFO - Trial 1 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 2 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 3 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 4 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 5 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 6 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 7 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 8 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 9 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - Trial 10 平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - 策略 expert_instruction_id_first_plain 总体平均 NDCG@10: 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 0: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 1: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 2: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 3: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 4: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 5: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 6: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,249 - INFO - 样本 7: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,250 - INFO - 样本 8: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,250 - INFO - 样本 9: 平均 NDCG@10 = 0.0000, 标准差 = 0.0000
+2025-05-10 02:48:36,250 - INFO - 详细结果已保存至: results_detailed\eval_expert_instruction_id_first_plain_20250510_024836.json
+2025-05-10 02:48:36,250 - INFO - 样本得分CSV已保存至: results_detailed\sample_scores_expert_instruction_id_first_plain.csv
+2025-05-10 02:48:36,250 - INFO - 策略汇总结果已保存至: results_detailed\strategy_summary.md
+2025-05-10 02:48:36,251 - INFO - 所有策略评估完成

@@ -1,0 +1,17 @@
+2025-05-10 00:59:50,636 - INFO - 日志系统初始化完成
+2025-05-10 00:59:50,637 - INFO - 验证数据加载成功 - 样本数: 10
+2025-05-10 00:59:50,637 - INFO - 
+===== 评估策略: expert_instruction_id_first_plain ======
+2025-05-10 00:59:50,637 - INFO - 
+===== 开始评估策略: expert_instruction_id_first_plain ======
+2025-05-10 00:59:50,664 - INFO - 开始第 1/10 次评估
+2025-05-10 00:59:50,801 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,817 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,827 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,827 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,827 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,828 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,828 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,828 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,829 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:59:50,831 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"

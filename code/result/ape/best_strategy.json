@@ -1,0 +1,5 @@
+{
+  "name": "initial_expert_strategy",
+  "system_prompt": "你是一名电影推荐专家，目标是根据用户历史预测他们最可能观看的电影。",
+  "user_prompt_template": "用户最近观看的电影：\n{{history}}\n\n请根据用户的兴趣，对以下候选电影进行排序（最可能观看的电影在最前）：\n{{candidates}}\n\n直接输出电影ID列表，不要额外的解释或文字。"
+}

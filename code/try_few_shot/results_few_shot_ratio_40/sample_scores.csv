@@ -1,0 +1,7 @@
+Sample_ID,Mean_NDCG,Std_NDCG,Trial_1,Trial_2,Trial_3,Trial_4,Trial_5,Trial_6,Trial_7,Trial_8,Trial_9,Trial_10,Trial_11,Trial_12,Trial_13,Trial_14,Trial_15,Trial_16,Trial_17,Trial_18,Trial_19,Trial_20
+0,0.6273,0.3566
+1,0.4427,0.2638
+2,0.3917,0.3089
+3,0.3798,0.1874
+4,0.3616,0.2099
+5,0.4534,0.2453

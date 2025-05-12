@@ -1,0 +1,51 @@
+{
+  "overall_avg_ndcg": 0.5527879251001773,
+  "trial_avg_scores": [
+    0.5527879251001773
+  ],
+  "sample_stats": {
+    "0": {
+      "mean_ndcg": 0.0,
+      "std_ndcg": 0.0
+    },
+    "1": {
+      "mean_ndcg": 1.0,
+      "std_ndcg": 0.0
+    },
+    "2": {
+      "mean_ndcg": 0.0,
+      "std_ndcg": 0.0
+    },
+    "3": {
+      "mean_ndcg": 0.3562071871080222,
+      "std_ndcg": 0.0
+    },
+    "4": {
+      "mean_ndcg": 0.31546487678572877,
+      "std_ndcg": 0.0
+    },
+    "5": {
+      "mean_ndcg": 0.3562071871080222,
+      "std_ndcg": 0.0
+    },
+    "6": {
+      "mean_ndcg": 1.0,
+      "std_ndcg": 0.0
+    },
+    "7": {
+      "mean_ndcg": 1.0,
+      "std_ndcg": 0.0
+    },
+    "8": {
+      "mean_ndcg": 1.0,
+      "std_ndcg": 0.0
+    },
+    "9": {
+      "mean_ndcg": 0.5,
+      "std_ndcg": 0.0
+    }
+  },
+  "num_trials": 1,
+  "num_samples": 10,
+  "k": 10
+}

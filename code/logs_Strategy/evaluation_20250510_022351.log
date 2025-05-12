@@ -1,0 +1,5023 @@
+2025-05-10 02:23:51,941 - INFO - 日志系统初始化完成
+2025-05-10 02:23:51,941 - INFO - 验证数据加载成功 - 样本数: 10
+2025-05-10 02:23:51,941 - INFO - 
+===== 评估策略: expert_instruction_id_first_plain ======
+2025-05-10 02:23:51,941 - INFO - 
+===== 开始评估策略: expert_instruction_id_first_plain ======
+2025-05-10 02:23:51,969 - INFO - 开始第 1/10 次评估
+2025-05-10 02:23:52,104 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,104 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,113 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,114 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,115 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,115 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,115 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,116 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,117 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:23:52,135 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:02,903 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中科幻、动作冒险和经典续集类电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+515: Remains of the Day, The
+2562: Bandits
+1541: Addicted to Love
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1257: Better Off Dead...
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:02,903 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中科幻、动作冒险和经典续集类电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+515: Remains of the Day, The
+2562: Bandits
+1541: Addicted to Love
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1257: Better Off Dead...
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:02,903 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:24:02,903 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 2467], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:02,903 - INFO - 样本 2 (Trial 1): NDCG@10 = 0.6309
+2025-05-10 02:24:03,612 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+1483: Crash  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1965: Repo Man  
+3878: X: The Unknown  
+3360: Hoosiers  
+249: Immortal Beloved  
+2154: How Stella Got Her Groove Back  
+381: When a Man Loves a Woman  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+146: Amazing Panda Adventure, The  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:03,612 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+1483: Crash  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1965: Repo Man  
+3878: X: The Unknown  
+3360: Hoosiers  
+249: Immortal Beloved  
+2154: How Stella Got Her Groove Back  
+381: When a Man Loves a Woman  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+146: Amazing Panda Adventure, The  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:03,612 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3878, 3360, 249, 2154, 381, 1611, 2943, 730, 803, 146, 3590, 2129]
+2025-05-10 02:24:03,612 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3878], 真实目标: 3176, NDCG@10: 0.31546487678572877
+2025-05-10 02:24:03,612 - INFO - 样本 7 (Trial 1): NDCG@10 = 0.3155
+2025-05-10 02:24:03,832 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、成长故事、社会议题、女性视角等），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2249: My Blue Heaven  
+3378: Ogre, The (Der Unhold)  
+2960: Beefcake  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+2137: Charlotte's Web  
+2409: Rocky II  
+1375: Star Trek III: The Search for Spock  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:03,832 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、成长故事、社会议题、女性视角等），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2249: My Blue Heaven  
+3378: Ogre, The (Der Unhold)  
+2960: Beefcake  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+2137: Charlotte's Web  
+2409: Rocky II  
+1375: Star Trek III: The Search for Spock  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:03,832 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1259, 1815, 359, 3626, 8, 1, 2, 3859, 2249, 3378, 2960, 3312, 185, 3614, 2452, 2137, 2409, 1375, 758]
+2025-05-10 02:24:03,832 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1259, 1815, 359, 3626, 8, 1], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:24:03,832 - INFO - 样本 6 (Trial 1): NDCG@10 = 0.4307
+2025-05-10 02:24:03,876 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出他们偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+534: Shadowlands
+3183: Third Miracle, The
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+3497: Max Dugan Returns
+1458: Touch
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+1523: Truth or Consequences, N.M.
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+3790: Groove
+2025-05-10 02:24:03,878 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出他们偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+534: Shadowlands
+3183: Third Miracle, The
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+3497: Max Dugan Returns
+1458: Touch
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+1523: Truth or Consequences, N.M.
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+3790: Groove
+2025-05-10 02:24:03,878 - INFO - 模型输出解析 - 解析后电影ID列表: [534, 3183, 3449, 280, 1187, 3801, 3497, 1458, 607, 1232, 3761, 2644, 537, 823, 2261, 1523, 3247, 2791, 370, 33, 1, 3, 3790]
+2025-05-10 02:24:03,878 - INFO - NDCG计算 - 预测列表前10项: [534, 3183, 3449, 280, 1187, 3801, 3497, 1458, 607, 1232], 真实目标: 534, NDCG@10: 1.0
+2025-05-10 02:24:03,878 - INFO - 样本 5 (Trial 1): NDCG@10 = 1.0000
+2025-05-10 02:24:03,896 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表：
+
+3258: Death Becomes Her
+1590: Event Horizon
+161: Crimson Tide
+1103: Rebel Without a Cause
+1965: Repo Man
+3710: Action Jackson
+2210: Sabotage
+2637: Mummy's Hand, The
+1880: Lawn Dogs
+2318: Happiness
+2144: Sixteen Candles
+396: Fall Time
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3723: Hamlet
+2970: Fitzcarraldo
+1251: 8 1/2
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+3413: Impact
+876: Police Story 4: Project S (Chao ji ji hua)
+2025-05-10 02:24:03,896 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表：
+
+3258: Death Becomes Her
+1590: Event Horizon
+161: Crimson Tide
+1103: Rebel Without a Cause
+1965: Repo Man
+3710: Action Jackson
+2210: Sabotage
+2637: Mummy's Hand, The
+1880: Lawn Dogs
+2318: Happiness
+2144: Sixteen Candles
+396: Fall Time
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3723: Hamlet
+2970: Fitzcarraldo
+1251: 8 1/2
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+3413: Impact
+876: Police Story 4: Project S (Chao ji ji hua)
+2025-05-10 02:24:03,896 - INFO - 模型输出解析 - 解析后电影ID列表: [3258, 1590, 161, 1103, 1965, 3710, 2210, 2637, 1880, 2318, 2144, 396, 3695, 381, 3723, 2970, 1251, 8, 1, 2, 3245, 3413, 876, 4]
+2025-05-10 02:24:03,896 - INFO - NDCG计算 - 预测列表前10项: [3258, 1590, 161, 1103, 1965, 3710, 2210, 2637, 1880, 2318], 真实目标: 1965, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:03,896 - INFO - 样本 9 (Trial 1): NDCG@10 = 0.3869
+2025-05-10 02:24:04,747 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些轻松幽默的作品（如《钱坑》《无言以对》）。以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+2755: Light of Day  
+3606: On the Town  
+3858: Cecil B. Demented  
+396: Fall Time  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2795: Vacation  
+3303: Black Tar Heroin: The Dark End of the Street
+2025-05-10 02:24:04,747 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些轻松幽默的作品（如《钱坑》《无言以对》）。以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+2755: Light of Day  
+3606: On the Town  
+3858: Cecil B. Demented  
+396: Fall Time  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2795: Vacation  
+3303: Black Tar Heroin: The Dark End of the Street
+2025-05-10 02:24:04,747 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579, 2755, 3606, 3858, 396, 2720, 1731, 328, 2123, 2795, 3303]
+2025-05-10 02:24:04,747 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:24:04,747 - INFO - 样本 0 (Trial 1): NDCG@10 = 1.0000
+2025-05-10 02:24:04,766 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色喜剧（American Psycho）、惊悚片（Final Destination）、轻松喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+122: Boomerang
+1722: Tomorrow Never Dies
+1563: Dream With the Fishes
+428: Bronx Tale, A
+2367: King Kong
+3701: Alien Nation
+1539: Twin Town
+447: Favor, The
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3768: Braddock: Missing in Action III
+3420: ...And Justice for All
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:04,766 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色喜剧（American Psycho）、惊悚片（Final Destination）、轻松喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+122: Boomerang
+1722: Tomorrow Never Dies
+1563: Dream With the Fishes
+428: Bronx Tale, A
+2367: King Kong
+3701: Alien Nation
+1539: Twin Town
+447: Favor, The
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3768: Braddock: Missing in Action III
+3420: ...And Justice for All
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:04,766 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 122, 1722, 1563, 428, 2367, 3701, 1539, 447, 818, 691, 1555, 3768, 3420, 567, 3824, 1913, 2609, 3756]
+2025-05-10 02:24:04,766 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 122, 1722, 1563, 428, 2367], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:24:04,766 - INFO - 样本 3 (Trial 1): NDCG@10 = 0.0000
+2025-05-10 02:24:05,613 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格、恶搞元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1194, 785, 1083, 945, 1145, 3768, 3709, 3667, 1365, 2438, 3474, 3822, 29, 2858, 194, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. 优先选择同类型喜剧（如《Up in Smoke》《Kingpin》延续恶搞风格）
+2. 怀旧歌舞片（《Top Hat》《Great Race》匹配《Grease》偏好）
+3. 动作喜剧（《Braddock》《Rent-A-Cop》类似《Kelly's Heroes》混搭风格）
+4. 法式幽默（《Ridicule》）和cult片（《Sleepwalkers》）作为次级选择
+5. 将严肃题材（《Deer Hunter》）和艺术片（《Late August...》）排后
+2025-05-10 02:24:05,613 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格、恶搞元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1194, 785, 1083, 945, 1145, 3768, 3709, 3667, 1365, 2438, 3474, 3822, 29, 2858, 194, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. 优先选择同类型喜剧（如《Up in Smoke》《Kingpin》延续恶搞风格）
+2. 怀旧歌舞片（《Top Hat》《Great Race》匹配《Grease》偏好）
+3. 动作喜剧（《Braddock》《Rent-A-Cop》类似《Kelly's Heroes》混搭风格）
+4. 法式幽默（《Ridicule》）和cult片（《Sleepwalkers》）作为次级选择
+5. 将严肃题材（《Deer Hunter》）和艺术片（《Late August...》）排后
+2025-05-10 02:24:05,613 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 1083, 945, 1145, 3768, 3709, 3667, 1365, 2438, 3474, 3822, 29, 2858, 194, 2705, 2022, 1263, 2311, 1797, 1, 2, 3, 4, 5]
+2025-05-10 02:24:05,614 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 1083, 945, 1145, 3768, 3709, 3667, 1365, 2438], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:24:05,614 - INFO - 样本 1 (Trial 1): NDCG@10 = 1.0000
+2025-05-10 02:24:06,191 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，将最可能观看的放在最前面：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:06,191 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，将最可能观看的放在最前面：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:06,191 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 373, 1858, 1758, 1236, 614, 1053, 971, 2507, 3145, 1537, 2997, 3325, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:24:06,191 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 373, 1858, 1758, 1236, 614, 1053, 971], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:24:06,191 - INFO - 样本 8 (Trial 1): NDCG@10 = 0.3562
+2025-05-10 02:24:08,186 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（历史剧情片、浪漫剧情、悬疑惊悚、黑色幽默等元素），以下是重排后的推荐列表：
+
+3948: Meet the Parents
+516: Renaissance Man
+1824: Homegrown
+2160: Rosemary's Baby
+1671: Deceiver
+2227: Lodger, The
+2620: This Is My Father
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+1822: Meet the Deedles
+3618: Small Time Crooks
+145: Bad Boys
+8: Tom and Huck
+2374: Gung Ho
+3882: Bring It On
+1317: I'm Not Rappaport
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+863: Celestial Clockwork
+
+推荐理由：
+1. 优先推荐《Meet the Parents》因其浪漫喜剧+家庭剧情的元素，与用户喜欢的《Runaway Bride》《Shakespeare in Love》类型相似
+2. 其次是《Renaissance Man》和《Homegrown》这类带有幽默感的剧情片
+3. 用户明显喜欢心理悬疑（《第六感》《天才雷普利》），所以推荐《Rosemary's Baby》《Deceiver》等心理惊悚片
+4. 将动作类和青少年喜剧类（如Bring It On）排在较后位置
+2025-05-10 02:24:08,186 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（历史剧情片、浪漫剧情、悬疑惊悚、黑色幽默等元素），以下是重排后的推荐列表：
+
+3948: Meet the Parents
+516: Renaissance Man
+1824: Homegrown
+2160: Rosemary's Baby
+1671: Deceiver
+2227: Lodger, The
+2620: This Is My Father
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+1822: Meet the Deedles
+3618: Small Time Crooks
+145: Bad Boys
+8: Tom and Huck
+2374: Gung Ho
+3882: Bring It On
+1317: I'm Not Rappaport
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+863: Celestial Clockwork
+
+推荐理由：
+1. 优先推荐《Meet the Parents》因其浪漫喜剧+家庭剧情的元素，与用户喜欢的《Runaway Bride》《Shakespeare in Love》类型相似
+2. 其次是《Renaissance Man》和《Homegrown》这类带有幽默感的剧情片
+3. 用户明显喜欢心理悬疑（《第六感》《天才雷普利》），所以推荐《Rosemary's Baby》《Deceiver》等心理惊悚片
+4. 将动作类和青少年喜剧类（如Bring It On）排在较后位置
+2025-05-10 02:24:08,186 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 1824, 2160, 1671, 2227, 2620, 1528, 2869, 3313, 1822, 3618, 145, 8, 2374, 3882, 1317, 2074, 2993, 863, 1, 2, 3, 4]
+2025-05-10 02:24:08,186 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 1824, 2160, 1671, 2227, 2620, 1528, 2869, 3313], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:24:08,186 - INFO - 样本 4 (Trial 1): NDCG@10 = 1.0000
+2025-05-10 02:24:08,187 - INFO - 开始第 2/10 次评估
+2025-05-10 02:24:08,240 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,243 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,243 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,244 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,245 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,246 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,247 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,247 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,249 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:08,321 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:18,111 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:18,112 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:18,112 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232, 3761, 2644, 537, 823, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:24:18,112 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:18,112 - INFO - 样本 5 (Trial 2): NDCG@10 = 0.6309
+2025-05-10 02:24:18,411 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典系列电影以及带有怀旧或未来主义元素的影片。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+515: Remains of the Day, The
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1257: Better Off Dead...
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:18,412 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典系列电影以及带有怀旧或未来主义元素的影片。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+515: Remains of the Day, The
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1257: Better Off Dead...
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:18,412 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 515, 3557, 8, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:24:18,412 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 515, 3557, 8, 2562, 1541, 2467], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:18,412 - INFO - 样本 2 (Trial 2): NDCG@10 = 0.6309
+2025-05-10 02:24:18,759 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+3313: Class Reunion
+2620: This Is My Father
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+2374: Gung Ho
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+863: Celestial Clockwork
+3882: Bring It On
+2025-05-10 02:24:18,759 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+3313: Class Reunion
+2620: This Is My Father
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+2374: Gung Ho
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+863: Celestial Clockwork
+3882: Bring It On
+2025-05-10 02:24:18,759 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 8, 3313, 2620, 1528, 2869, 1317, 2374, 2074, 2993, 863, 3882]
+2025-05-10 02:24:18,760 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 8], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:24:18,760 - INFO - 样本 4 (Trial 2): NDCG@10 = 1.0000
+2025-05-10 02:24:19,258 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+1103: Rebel Without a Cause  
+1965: Repo Man  
+2318: Happiness  
+3710: Action Jackson  
+2210: Sabotage  
+2637: Mummy's Hand, The  
+1880: Lawn Dogs  
+396: Fall Time  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+381: When a Man Loves a Woman  
+3413: Impact  
+2970: Fitzcarraldo  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+2144: Sixteen Candles  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:24:19,258 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+1103: Rebel Without a Cause  
+1965: Repo Man  
+2318: Happiness  
+3710: Action Jackson  
+2210: Sabotage  
+2637: Mummy's Hand, The  
+1880: Lawn Dogs  
+396: Fall Time  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+381: When a Man Loves a Woman  
+3413: Impact  
+2970: Fitzcarraldo  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+2144: Sixteen Candles  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:24:19,258 - INFO - 模型输出解析 - 解析后电影ID列表: [1590, 161, 3258, 1103, 1965, 2318, 3710, 2210, 2637, 1880, 396, 3695, 381, 3413, 2970, 3723, 876, 4, 2144, 1251, 8, 1, 2, 3245]
+2025-05-10 02:24:19,259 - INFO - NDCG计算 - 预测列表前10项: [1590, 161, 3258, 1103, 1965, 2318, 3710, 2210, 2637, 1880], 真实目标: 1965, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:19,259 - INFO - 样本 9 (Trial 2): NDCG@10 = 0.3869
+2025-05-10 02:24:19,550 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片、励志传记片和带有紧张刺激元素的电影。以下是重排后的电影ID列表，最可能观看的放最前：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+2997: Being John Malkovich
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+1053: Normal Life
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:19,550 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片、励志传记片和带有紧张刺激元素的电影。以下是重排后的电影ID列表，最可能观看的放最前：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+2997: Being John Malkovich
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+1053: Normal Life
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:19,550 - INFO - 模型输出解析 - 解析后电影ID列表: [3107, 1343, 373, 1858, 1758, 1236, 614, 2507, 971, 2997, 3145, 1537, 3325, 3864, 2000, 3933, 1053, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:24:19,550 - INFO - NDCG计算 - 预测列表前10项: [3107, 1343, 373, 1858, 1758, 1236, 614, 2507, 971, 2997], 真实目标: 1758, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:19,550 - INFO - 样本 8 (Trial 2): NDCG@10 = 0.3869
+2025-05-10 02:24:20,259 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（偏向剧情片、文艺片、有一定深度的电影），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+1731: Mr. Magoo  
+2720: Inspector Gadget  
+2795: Vacation
+2025-05-10 02:24:20,259 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（偏向剧情片、文艺片、有一定深度的电影），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+1731: Mr. Magoo  
+2720: Inspector Gadget  
+2795: Vacation
+2025-05-10 02:24:20,259 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 396, 3858, 3303, 328, 2123, 1731, 2720, 2795]
+2025-05-10 02:24:20,259 - INFO - NDCG计算 - 预测列表前10项: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:24:20,259 - INFO - 样本 0 (Trial 2): NDCG@10 = 1.0000
+2025-05-10 02:24:20,399 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格作品（Showgirls, Supernova）。以下是重排后的推荐列表，优先考虑动作元素、黑色幽默、犯罪心理和轻松喜剧：
+
+21: Get Shorty  
+370: Naked Gun 33 1/3: The Final Insult  
+1722: Tomorrow Never Dies  
+2367: King Kong  
+122: Boomerang  
+428: Bronx Tale, A  
+818: Very Brady Sequel, A  
+3768: Braddock: Missing in Action III  
+3701: Alien Nation  
+1539: Twin Town  
+3420: ...And Justice for All  
+447: Favor, The  
+691: Mrs. Winterbourne  
+1555: To Have, or Not  
+1563: Dream With the Fishes  
+3824: Autumn in New York  
+567: Kika  
+1913: Picnic at Hanging Rock  
+2609: King of Masks, The (Bian Lian)  
+3756: Golden Bowl, The
+2025-05-10 02:24:20,399 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格作品（Showgirls, Supernova）。以下是重排后的推荐列表，优先考虑动作元素、黑色幽默、犯罪心理和轻松喜剧：
+
+21: Get Shorty  
+370: Naked Gun 33 1/3: The Final Insult  
+1722: Tomorrow Never Dies  
+2367: King Kong  
+122: Boomerang  
+428: Bronx Tale, A  
+818: Very Brady Sequel, A  
+3768: Braddock: Missing in Action III  
+3701: Alien Nation  
+1539: Twin Town  
+3420: ...And Justice for All  
+447: Favor, The  
+691: Mrs. Winterbourne  
+1555: To Have, or Not  
+1563: Dream With the Fishes  
+3824: Autumn in New York  
+567: Kika  
+1913: Picnic at Hanging Rock  
+2609: King of Masks, The (Bian Lian)  
+3756: Golden Bowl, The
+2025-05-10 02:24:20,399 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 1722, 2367, 122, 428, 818, 3768, 3701, 1539, 3420, 447, 691, 1555, 1563, 3824, 567, 1913, 2609, 3756]
+2025-05-10 02:24:20,399 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 1722, 2367, 122, 428, 818], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:24:20,399 - INFO - 样本 3 (Trial 2): NDCG@10 = 0.0000
+2025-05-10 02:24:20,759 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+3878: X: The Unknown
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:20,760 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+3878: X: The Unknown
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:20,760 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360, 249, 381, 2154, 1611, 3878, 2943, 730, 803, 146, 3590, 2129]
+2025-05-10 02:24:20,760 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:24:20,760 - INFO - 样本 7 (Trial 2): NDCG@10 = 0.3333
+2025-05-10 02:24:20,774 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、怀旧电影），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 3474, 2438, 3822, 29, 194, 2858, 1365, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. 优先选择同类型喜剧（Up in Smoke/Kingpin）
+2. 怀旧歌舞片（Top Hat/Great Race）
+3. 动作喜剧（Braddock/Rent-A-Cop）
+4. 恐怖喜剧（Sleepwalkers）
+5. 其他类型根据用户历史匹配度降序排列
+2025-05-10 02:24:20,774 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、怀旧电影），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 3474, 2438, 3822, 29, 194, 2858, 1365, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. 优先选择同类型喜剧（Up in Smoke/Kingpin）
+2. 怀旧歌舞片（Top Hat/Great Race）
+3. 动作喜剧（Braddock/Rent-A-Cop）
+4. 恐怖喜剧（Sleepwalkers）
+5. 其他类型根据用户历史匹配度降序排列
+2025-05-10 02:24:20,774 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 3474, 2438, 3822, 29, 194, 2858, 1365, 2705, 2022, 1263, 2311, 1797, 1, 2, 3, 4, 5]
+2025-05-10 02:24:20,774 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 3474, 2438], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:24:20,774 - INFO - 样本 1 (Trial 2): NDCG@10 = 1.0000
+2025-05-10 02:24:20,842 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的电影类型和风格（独立电影、文艺片、情感深刻的剧情片、90年代经典等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:20,842 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的电影类型和风格（独立电影、文艺片、情感深刻的剧情片、90年代经典等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:20,842 - INFO - 模型输出解析 - 解析后电影ID列表: [90, 3251, 887, 271, 372, 1259, 1815, 359, 2249, 3626, 8, 1, 2, 3859, 2960, 3378, 3312, 185, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:24:20,842 - INFO - NDCG计算 - 预测列表前10项: [90, 3251, 887, 271, 372, 1259, 1815, 359, 2249, 3626], 真实目标: 372, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:20,842 - INFO - 样本 6 (Trial 2): NDCG@10 = 0.3869
+2025-05-10 02:24:20,842 - INFO - 开始第 3/10 次评估
+2025-05-10 02:24:20,897 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,897 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,900 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,903 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,903 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,903 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,907 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,921 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,922 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:20,923 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:30,270 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+1824: Homegrown
+145: Bad Boys
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+2620: This Is My Father
+1528: Intimate Relations
+3313: Class Reunion
+8: Tom and Huck
+2869: Separation, The (La Séparation)
+3882: Bring It On
+1317: I'm Not Rappaport
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+1822: Meet the Deedles
+2025-05-10 02:24:30,270 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+1824: Homegrown
+145: Bad Boys
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+2620: This Is My Father
+1528: Intimate Relations
+3313: Class Reunion
+8: Tom and Huck
+2869: Separation, The (La Séparation)
+3882: Bring It On
+1317: I'm Not Rappaport
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+1822: Meet the Deedles
+2025-05-10 02:24:30,271 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 1824, 145, 2227, 2160, 1671, 2620, 1528, 3313, 8, 2869, 3882, 1317, 2374, 863, 2993, 2074, 1822]
+2025-05-10 02:24:30,271 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 1824, 145, 2227, 2160, 1671, 2620, 1528], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:24:30,271 - INFO - 样本 4 (Trial 3): NDCG@10 = 1.0000
+2025-05-10 02:24:31,565 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+2261: One Crazy Summer
+823: Collectionneuse, La
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:31,565 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+2261: One Crazy Summer
+823: Collectionneuse, La
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:31,565 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232, 3761, 2644, 537, 2261, 823, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:24:31,565 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:31,565 - INFO - 样本 5 (Trial 3): NDCG@10 = 0.6309
+2025-05-10 02:24:31,871 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和90年代末至2000年代初的商业电影。以下是重排后的推荐列表：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+1563: Dream With the Fishes
+428: Bronx Tale, A
+1722: Tomorrow Never Dies
+2367: King Kong
+3701: Alien Nation
+3768: Braddock: Missing in Action III
+1539: Twin Town
+1555: To Have, or Not
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:31,872 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和90年代末至2000年代初的商业电影。以下是重排后的推荐列表：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+1563: Dream With the Fishes
+428: Bronx Tale, A
+1722: Tomorrow Never Dies
+2367: King Kong
+3701: Alien Nation
+3768: Braddock: Missing in Action III
+1539: Twin Town
+1555: To Have, or Not
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:31,872 - INFO - 模型输出解析 - 解析后电影ID列表: [90, 2000, 370, 33, 1, 3, 21, 122, 1563, 428, 1722, 2367, 3701, 3768, 1539, 1555, 447, 3420, 818, 691, 567, 3824, 1913, 2609, 3756]
+2025-05-10 02:24:31,872 - INFO - NDCG计算 - 预测列表前10项: [90, 2000, 370, 33, 1, 3, 21, 122, 1563, 428], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:24:31,872 - INFO - 样本 3 (Trial 3): NDCG@10 = 0.0000
+2025-05-10 02:24:31,874 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重新排序的电影ID列表，最可能观看的排在最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3219: Pacific Heights
+3176: Talented Mr. Ripley, The
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:31,874 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重新排序的电影ID列表，最可能观看的排在最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3219: Pacific Heights
+3176: Talented Mr. Ripley, The
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:24:31,874 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3878, 3590, 146, 2129]
+2025-05-10 02:24:31,874 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3360], 真实目标: 3176, NDCG@10: 0.31546487678572877
+2025-05-10 02:24:31,874 - INFO - 样本 7 (Trial 3): NDCG@10 = 0.3155
+2025-05-10 02:24:32,384 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好独立电影、文艺片、剧情片以及带有一定深度和情感层次的电影。以下是根据用户兴趣偏好重新排序的候选电影ID列表：
+
+3251: Agnes of God
+887: Talk of Angels
+1815: Eden
+271: Losing Isaiah
+372: Reality Bites
+3859: Eyes of Tammy Faye, The
+3626: 8 1/2 Women
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+185: Net, The
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+2960: Beefcake
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+1375: Star Trek III: The Search for Spock
+2409: Rocky II
+2137: Charlotte's Web
+758: Jar, The (Khomreh)
+2025-05-10 02:24:32,384 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好独立电影、文艺片、剧情片以及带有一定深度和情感层次的电影。以下是根据用户兴趣偏好重新排序的候选电影ID列表：
+
+3251: Agnes of God
+887: Talk of Angels
+1815: Eden
+271: Losing Isaiah
+372: Reality Bites
+3859: Eyes of Tammy Faye, The
+3626: 8 1/2 Women
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+185: Net, The
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+2960: Beefcake
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+1375: Star Trek III: The Search for Spock
+2409: Rocky II
+2137: Charlotte's Web
+758: Jar, The (Khomreh)
+2025-05-10 02:24:32,384 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 1815, 271, 372, 3859, 3626, 8, 1, 2, 359, 2249, 1259, 185, 3378, 3312, 2960, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:24:32,384 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 1815, 271, 372, 3859, 3626, 8, 1, 2], 真实目标: 372, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:32,384 - INFO - 样本 6 (Trial 3): NDCG@10 = 0.3869
+2025-05-10 02:24:32,521 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好经典喜剧、无厘头幽默和轻松娱乐风格的电影（如Animal House、Monty Python、Blazing Saddles、The Jerk等）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+1145: Snowriders
+945: Top Hat
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2705: Late August, Early September (Fin août, début septembre)
+2022: Last Temptation of Christ, The
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+2025-05-10 02:24:32,521 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好经典喜剧、无厘头幽默和轻松娱乐风格的电影（如Animal House、Monty Python、Blazing Saddles、The Jerk等）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+1145: Snowriders
+945: Top Hat
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2705: Late August, Early September (Fin août, début septembre)
+2022: Last Temptation of Christ, The
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+2025-05-10 02:24:32,521 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 1083, 3768, 3667, 1145, 945, 3709, 3474, 2438, 1365, 29, 3822, 194, 2858, 2705, 2022, 1263, 2311, 2010, 1797]
+2025-05-10 02:24:32,521 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 1083, 3768, 3667, 1145, 945, 3709, 3474, 2438], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:24:32,521 - INFO - 样本 1 (Trial 3): NDCG@10 = 1.0000
+2025-05-10 02:24:33,486 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史分析，该用户偏好科幻/动作（Terminator 2, Event Horizon）、黑色幽默/另类题材（Boogie Nights, Happiness）、经典文艺片（After Life, Edward Scissorhands）以及惊悚悬疑（Rosemary's Baby）等类型。以下是重排推荐：
+
+1590: Event Horizon
+2318: Happiness
+1965: Repo Man
+3258: Death Becomes Her
+1103: Rebel Without a Cause
+1880: Lawn Dogs
+2970: Fitzcarraldo
+1251: 8 1/2
+3723: Hamlet
+396: Fall Time
+2637: Mummy's Hand, The
+2210: Sabotage
+3710: Action Jackson
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3413: Impact
+161: Crimson Tide
+2144: Sixteen Candles
+876: Police Story 4: Project S (Chao ji ji hua)
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:24:33,487 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史分析，该用户偏好科幻/动作（Terminator 2, Event Horizon）、黑色幽默/另类题材（Boogie Nights, Happiness）、经典文艺片（After Life, Edward Scissorhands）以及惊悚悬疑（Rosemary's Baby）等类型。以下是重排推荐：
+
+1590: Event Horizon
+2318: Happiness
+1965: Repo Man
+3258: Death Becomes Her
+1103: Rebel Without a Cause
+1880: Lawn Dogs
+2970: Fitzcarraldo
+1251: 8 1/2
+3723: Hamlet
+396: Fall Time
+2637: Mummy's Hand, The
+2210: Sabotage
+3710: Action Jackson
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3413: Impact
+161: Crimson Tide
+2144: Sixteen Candles
+876: Police Story 4: Project S (Chao ji ji hua)
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:24:33,487 - INFO - 模型输出解析 - 解析后电影ID列表: [2, 1590, 2318, 1965, 3258, 1103, 1880, 2970, 1251, 8, 1, 2, 3723, 396, 2637, 2210, 3710, 3695, 381, 3413, 161, 2144, 876, 4, 3245]
+2025-05-10 02:24:33,487 - INFO - NDCG计算 - 预测列表前10项: [2, 1590, 2318, 1965, 3258, 1103, 1880, 2970, 1251, 8], 真实目标: 1965, NDCG@10: 0.43067655807339306
+2025-05-10 02:24:33,487 - INFO - 样本 9 (Trial 3): NDCG@10 = 0.4307
+2025-05-10 02:24:33,736 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好动作片、剧情片和有一定紧张感的电影（如《Mission to Mars》《Perfect Storm》《Boiler Room》），同时也对情感丰富的剧情片感兴趣（如《Erin Brockovich》《Remember the Titans》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+1053: Normal Life
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:33,736 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好动作片、剧情片和有一定紧张感的电影（如《Mission to Mars》《Perfect Storm》《Boiler Room》），同时也对情感丰富的剧情片感兴趣（如《Erin Brockovich》《Remember the Titans》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+1053: Normal Life
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:33,736 - INFO - 模型输出解析 - 解析后电影ID列表: [3107, 1343, 1858, 373, 1758, 1236, 614, 2507, 971, 1053, 3145, 1537, 2997, 3325, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:24:33,737 - INFO - NDCG计算 - 预测列表前10项: [3107, 1343, 1858, 373, 1758, 1236, 614, 2507, 971, 1053], 真实目标: 1758, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:33,737 - INFO - 样本 8 (Trial 3): NDCG@10 = 0.3869
+2025-05-10 02:24:35,478 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典续集以及带有超自然元素的电影（如《Stargate》《Superman II》《Tron》《Independence Day》等）。以下是按用户兴趣可能性从高到低重排的候选电影ID列表：
+
+3699: Starman  
+2011: Back to the Future Part II  
+2532: Conquest of the Planet of the Apes  
+555: True Romance  
+3557: Jennifer 8  
+515: Remains of the Day, The  
+2562: Bandits  
+1541: Addicted to Love  
+2467: Name of the Rose, The  
+2482: Still Crazy  
+2703: Broken Vessels  
+1357: Shine  
+1257: Better Off Dead...  
+1102: American Strays  
+1420: Message to Love: The Isle of Wight Festival  
+421: Black Beauty  
+1174: Grosse Fatigue  
+310: Rent-a-Kid  
+576: Fausto  
+3739: Trouble in Paradise  
+
+**最终推荐ID排序：**  
+3699, 2011, 2532, 555, 3557, 515, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739
+2025-05-10 02:24:35,478 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典续集以及带有超自然元素的电影（如《Stargate》《Superman II》《Tron》《Independence Day》等）。以下是按用户兴趣可能性从高到低重排的候选电影ID列表：
+
+3699: Starman  
+2011: Back to the Future Part II  
+2532: Conquest of the Planet of the Apes  
+555: True Romance  
+3557: Jennifer 8  
+515: Remains of the Day, The  
+2562: Bandits  
+1541: Addicted to Love  
+2467: Name of the Rose, The  
+2482: Still Crazy  
+2703: Broken Vessels  
+1357: Shine  
+1257: Better Off Dead...  
+1102: American Strays  
+1420: Message to Love: The Isle of Wight Festival  
+421: Black Beauty  
+1174: Grosse Fatigue  
+310: Rent-a-Kid  
+576: Fausto  
+3739: Trouble in Paradise  
+
+**最终推荐ID排序：**  
+3699, 2011, 2532, 555, 3557, 515, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739
+2025-05-10 02:24:35,478 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739, 3699, 2011, 2532, 555, 3557, 515, 2562, 1541, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:24:35,478 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 2467], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:35,478 - INFO - 样本 2 (Trial 3): NDCG@10 = 0.6309
+2025-05-10 02:24:35,514 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些轻松幽默的作品（如《钱坑》《无言以对》）。以下是重排后的电影ID列表，最可能观看的优先：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+2579: Following  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2755: Light of Day  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+396: Fall Time  
+3606: On the Town  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:24:35,515 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些轻松幽默的作品（如《钱坑》《无言以对》）。以下是重排后的电影ID列表，最可能观看的优先：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+2579: Following  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2755: Light of Day  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+396: Fall Time  
+3606: On the Town  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:24:35,515 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 2579, 3516, 3497, 2755, 3858, 3303, 396, 3606, 2123, 2720, 1731, 328, 2795]
+2025-05-10 02:24:35,515 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 2579, 3516, 3497], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:24:35,515 - INFO - 样本 0 (Trial 3): NDCG@10 = 1.0000
+2025-05-10 02:24:35,515 - INFO - 开始第 4/10 次评估
+2025-05-10 02:24:35,571 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,574 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,575 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,575 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,577 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,578 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,581 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,592 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,601 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:35,646 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:45,006 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+1822: Meet the Deedles
+3882: Bring It On
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+1317: I'm Not Rappaport
+1528: Intimate Relations
+1671: Deceiver
+3313: Class Reunion
+863: Celestial Clockwork
+2869: Separation, The (La Séparation)
+2227: Lodger, The
+2160: Rosemary's Baby
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+2025-05-10 02:24:45,006 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+1822: Meet the Deedles
+3882: Bring It On
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+1317: I'm Not Rappaport
+1528: Intimate Relations
+1671: Deceiver
+3313: Class Reunion
+863: Celestial Clockwork
+2869: Separation, The (La Séparation)
+2227: Lodger, The
+2160: Rosemary's Baby
+2074: Night Porter, The (Il Portiere di notte)
+2993: Thunderball
+2025-05-10 02:24:45,006 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 145, 1824, 1822, 3882, 8, 2374, 2620, 1317, 1528, 1671, 3313, 863, 2869, 2227, 2160, 2074, 2993]
+2025-05-10 02:24:45,006 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 145, 1824, 1822, 3882, 8, 2374, 2620], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:24:45,006 - INFO - 样本 4 (Trial 4): NDCG@10 = 1.0000
+2025-05-10 02:24:46,397 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放最前：
+
+534: Shadowlands
+3183: Third Miracle, The
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+1458: Touch
+607: Century
+1232: Stalker
+537: Sirens
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:46,397 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放最前：
+
+534: Shadowlands
+3183: Third Miracle, The
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+1458: Touch
+607: Century
+1232: Stalker
+537: Sirens
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:24:46,397 - INFO - 模型输出解析 - 解析后电影ID列表: [534, 3183, 3449, 280, 1187, 3497, 3801, 1458, 607, 1232, 537, 3761, 2644, 823, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:24:46,397 - INFO - NDCG计算 - 预测列表前10项: [534, 3183, 3449, 280, 1187, 3497, 3801, 1458, 607, 1232], 真实目标: 534, NDCG@10: 1.0
+2025-05-10 02:24:46,397 - INFO - 样本 5 (Trial 4): NDCG@10 = 1.0000
+2025-05-10 02:24:46,738 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好经典喜剧、无厘头幽默和轻松愉快的电影风格。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+1365: Ridicule
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+2438: Outside Ozona
+3474: Retroactive
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2705: Late August, Early September (Fin août, début septembre)
+2022: Last Temptation of Christ, The
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+1145: Snowriders
+2025-05-10 02:24:46,738 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好经典喜剧、无厘头幽默和轻松愉快的电影风格。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+1365: Ridicule
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+2438: Outside Ozona
+3474: Retroactive
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2705: Late August, Early September (Fin août, début septembre)
+2022: Last Temptation of Christ, The
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+1145: Snowriders
+2025-05-10 02:24:46,739 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 1083, 945, 1365, 3667, 3768, 3709, 2438, 3474, 29, 3822, 194, 2858, 2705, 2022, 1263, 2311, 2010, 1797, 1145]
+2025-05-10 02:24:46,739 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 1083, 945, 1365, 3667, 3768, 3709, 2438, 3474], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:24:46,739 - INFO - 样本 1 (Trial 4): NDCG@10 = 1.0000
+2025-05-10 02:24:46,823 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好冒险动作片、惊悚片和经典剧情片。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+2129: Saltmen of Tibet, The
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2025-05-10 02:24:46,823 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好冒险动作片、惊悚片和经典剧情片。以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+2129: Saltmen of Tibet, The
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2025-05-10 02:24:46,823 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3878, 2129, 146, 3590]
+2025-05-10 02:24:46,823 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:24:46,823 - INFO - 样本 7 (Trial 4): NDCG@10 = 0.3333
+2025-05-10 02:24:46,841 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文艺片、有深度的故事），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+2755: Light of Day  
+3303: Black Tar Heroin: The Dark End of the Street  
+3858: Cecil B. Demented  
+396: Fall Time  
+3606: On the Town  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:24:46,841 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文艺片、有深度的故事），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+2755: Light of Day  
+3303: Black Tar Heroin: The Dark End of the Street  
+3858: Cecil B. Demented  
+396: Fall Time  
+3606: On the Town  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:24:46,841 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579, 2755, 3303, 3858, 396, 3606, 328, 2123, 2720, 1731, 2795]
+2025-05-10 02:24:46,841 - INFO - NDCG计算 - 预测列表前10项: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:24:46,841 - INFO - 样本 0 (Trial 4): NDCG@10 = 1.0000
+2025-05-10 02:24:46,898 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典科幻续集以及带有神秘/超自然元素的电影。以下是重排后的推荐电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+515: Remains of the Day, The
+1257: Better Off Dead...
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:46,898 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典科幻续集以及带有神秘/超自然元素的电影。以下是重排后的推荐电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+515: Remains of the Day, The
+1257: Better Off Dead...
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:24:46,898 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 1257, 2467, 2482, 2703, 1357, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:24:46,898 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 1257], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:46,898 - INFO - 样本 2 (Trial 4): NDCG@10 = 0.6309
+2025-05-10 02:24:47,200 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+1590: Event Horizon
+161: Crimson Tide
+3258: Death Becomes Her
+1103: Rebel Without a Cause
+1965: Repo Man
+2318: Happiness
+3710: Action Jackson
+2210: Sabotage
+1880: Lawn Dogs
+2637: Mummy's Hand, The
+2970: Fitzcarraldo
+396: Fall Time
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+2144: Sixteen Candles
+3723: Hamlet
+876: Police Story 4: Project S (Chao ji ji hua)
+1251: 8 1/2
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+381: When a Man Loves a Woman
+3413: Impact
+2025-05-10 02:24:47,200 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+1590: Event Horizon
+161: Crimson Tide
+3258: Death Becomes Her
+1103: Rebel Without a Cause
+1965: Repo Man
+2318: Happiness
+3710: Action Jackson
+2210: Sabotage
+1880: Lawn Dogs
+2637: Mummy's Hand, The
+2970: Fitzcarraldo
+396: Fall Time
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+2144: Sixteen Candles
+3723: Hamlet
+876: Police Story 4: Project S (Chao ji ji hua)
+1251: 8 1/2
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+381: When a Man Loves a Woman
+3413: Impact
+2025-05-10 02:24:47,200 - INFO - 模型输出解析 - 解析后电影ID列表: [1590, 161, 3258, 1103, 1965, 2318, 3710, 2210, 1880, 2637, 2970, 396, 3695, 2144, 3723, 876, 4, 1251, 8, 1, 2, 3245, 381, 3413]
+2025-05-10 02:24:47,200 - INFO - NDCG计算 - 预测列表前10项: [1590, 161, 3258, 1103, 1965, 2318, 3710, 2210, 1880, 2637], 真实目标: 1965, NDCG@10: 0.38685280723454163
+2025-05-10 02:24:47,200 - INFO - 样本 9 (Trial 4): NDCG@10 = 0.3869
+2025-05-10 02:24:47,234 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、情感深刻的剧情片、90年代经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+372: Reality Bites  
+1259: Stand by Me  
+359: I Like It Like That  
+1815: Eden  
+887: Talk of Angels  
+271: Losing Isaiah  
+3251: Agnes of God  
+3626: 8 1/2 Women  
+2249: My Blue Heaven  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:47,234 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、情感深刻的剧情片、90年代经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+372: Reality Bites  
+1259: Stand by Me  
+359: I Like It Like That  
+1815: Eden  
+887: Talk of Angels  
+271: Losing Isaiah  
+3251: Agnes of God  
+3626: 8 1/2 Women  
+2249: My Blue Heaven  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:24:47,235 - INFO - 模型输出解析 - 解析后电影ID列表: [90, 372, 1259, 359, 1815, 887, 271, 3251, 3626, 8, 1, 2, 2249, 3859, 2960, 3378, 3312, 185, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:24:47,235 - INFO - NDCG计算 - 预测列表前10项: [90, 372, 1259, 359, 1815, 887, 271, 3251, 3626, 8], 真实目标: 372, NDCG@10: 0.6309297535714575
+2025-05-10 02:24:47,235 - INFO - 样本 6 (Trial 4): NDCG@10 = 0.6309
+2025-05-10 02:24:48,893 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪片（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格电影（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+2367: King Kong
+122: Boomerang
+3768: Braddock: Missing in Action III
+3701: Alien Nation
+428: Bronx Tale, A
+1539: Twin Town
+818: Very Brady Sequel, A
+1563: Dream With the Fishes
+447: Favor, The
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3420: ...And Justice for All
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:48,893 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪片（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格电影（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+2367: King Kong
+122: Boomerang
+3768: Braddock: Missing in Action III
+3701: Alien Nation
+428: Bronx Tale, A
+1539: Twin Town
+818: Very Brady Sequel, A
+1563: Dream With the Fishes
+447: Favor, The
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3420: ...And Justice for All
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:24:48,893 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 1722, 2367, 122, 3768, 3701, 428, 1539, 818, 1563, 447, 691, 1555, 3420, 567, 3824, 1913, 2609, 3756]
+2025-05-10 02:24:48,893 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 1722, 2367, 122, 3768, 3701], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:24:48,893 - INFO - 样本 3 (Trial 4): NDCG@10 = 0.0000
+2025-05-10 02:24:49,234 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对情感驱动型剧情片有一定兴趣（如《Erin Brockovich》《Remember the Titans》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1758: Dangerous Beauty
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+2507: Breakfast of Champions
+3325: Next Best Thing, The
+614: Loaded
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:49,234 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对情感驱动型剧情片有一定兴趣（如《Erin Brockovich》《Remember the Titans》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1758: Dangerous Beauty
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+2507: Breakfast of Champions
+3325: Next Best Thing, The
+614: Loaded
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:24:49,234 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 1858, 373, 1236, 1758, 1053, 971, 3145, 1537, 2997, 2507, 3325, 614, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:24:49,234 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 1858, 373, 1236, 1758, 1053, 971, 3145], 真实目标: 1758, NDCG@10: 0.3333333333333333
+2025-05-10 02:24:49,234 - INFO - 样本 8 (Trial 4): NDCG@10 = 0.3333
+2025-05-10 02:24:49,234 - INFO - 开始第 5/10 次评估
+2025-05-10 02:24:49,292 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,293 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,293 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,293 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,293 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,294 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,294 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,295 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,296 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:24:49,299 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:00,086 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中科幻、动作冒险和经典续集电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+515: Remains of the Day, The
+2562: Bandits
+1541: Addicted to Love
+1257: Better Off Dead...
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:25:00,086 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中科幻、动作冒险和经典续集电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+515: Remains of the Day, The
+2562: Bandits
+1541: Addicted to Love
+1257: Better Off Dead...
+2467: Name of the Rose, The
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:25:00,086 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 1257, 2467, 2482, 2703, 1357, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:25:00,086 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 515, 2562, 1541, 1257], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:00,086 - INFO - 样本 2 (Trial 5): NDCG@10 = 0.6309
+2025-05-10 02:25:00,587 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放最前：
+
+534: Shadowlands
+3449: Good Mother, The
+3183: Third Miracle, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+2261: One Crazy Summer
+1523: Truth or Consequences, N.M.
+823: Collectionneuse, La
+370: Naked Gun 33 1/3: The Final Insult
+2791: Airplane!
+3247: Sister Act
+3790: Groove
+2025-05-10 02:25:00,587 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情片、情感深刻的电影以及文学改编作品。以下是重排后的电影ID列表，最可能观看的放最前：
+
+534: Shadowlands
+3449: Good Mother, The
+3183: Third Miracle, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+2261: One Crazy Summer
+1523: Truth or Consequences, N.M.
+823: Collectionneuse, La
+370: Naked Gun 33 1/3: The Final Insult
+2791: Airplane!
+3247: Sister Act
+3790: Groove
+2025-05-10 02:25:00,587 - INFO - 模型输出解析 - 解析后电影ID列表: [534, 3449, 3183, 280, 1187, 1458, 3497, 3801, 607, 1232, 3761, 2644, 537, 2261, 1523, 823, 370, 33, 1, 3, 2791, 3247, 3790]
+2025-05-10 02:25:00,587 - INFO - NDCG计算 - 预测列表前10项: [534, 3449, 3183, 280, 1187, 1458, 3497, 3801, 607, 1232], 真实目标: 534, NDCG@10: 1.0
+2025-05-10 02:25:00,587 - INFO - 样本 5 (Trial 5): NDCG@10 = 1.0000
+2025-05-10 02:25:00,660 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情片、历史题材、爱情片以及带有悬疑/惊悚元素的电影。以下是重排后的推荐列表：
+
+3948: Meet the Parents
+516: Renaissance Man
+1824: Homegrown
+2620: This Is My Father
+1528: Intimate Relations
+2160: Rosemary's Baby
+1671: Deceiver
+2227: Lodger, The
+2074: Night Porter, The (Il Portiere di notte)
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+3618: Small Time Crooks
+1317: I'm Not Rappaport
+8: Tom and Huck
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+145: Bad Boys
+1822: Meet the Deedles
+3882: Bring It On
+2025-05-10 02:25:00,660 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情片、历史题材、爱情片以及带有悬疑/惊悚元素的电影。以下是重排后的推荐列表：
+
+3948: Meet the Parents
+516: Renaissance Man
+1824: Homegrown
+2620: This Is My Father
+1528: Intimate Relations
+2160: Rosemary's Baby
+1671: Deceiver
+2227: Lodger, The
+2074: Night Porter, The (Il Portiere di notte)
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+3618: Small Time Crooks
+1317: I'm Not Rappaport
+8: Tom and Huck
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+145: Bad Boys
+1822: Meet the Deedles
+3882: Bring It On
+2025-05-10 02:25:00,660 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 1824, 2620, 1528, 2160, 1671, 2227, 2074, 2869, 3313, 3618, 1317, 8, 2374, 863, 2993, 145, 1822, 3882]
+2025-05-10 02:25:00,660 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 1824, 2620, 1528, 2160, 1671, 2227, 2074, 2869], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:25:00,660 - INFO - 样本 4 (Trial 5): NDCG@10 = 1.0000
+2025-05-10 02:25:00,663 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:25:00,663 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:25:00,663 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3878, 3590, 146, 2129]
+2025-05-10 02:25:00,664 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:25:00,664 - INFO - 样本 7 (Trial 5): NDCG@10 = 0.3333
+2025-05-10 02:25:00,873 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+3710: Action Jackson  
+2210: Sabotage  
+1103: Rebel Without a Cause  
+1965: Repo Man  
+2637: Mummy's Hand, The  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+1880: Lawn Dogs  
+2318: Happiness  
+396: Fall Time  
+3413: Impact  
+2970: Fitzcarraldo  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+2144: Sixteen Candles  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)  
+381: When a Man Loves a Woman
+2025-05-10 02:25:00,873 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+3710: Action Jackson  
+2210: Sabotage  
+1103: Rebel Without a Cause  
+1965: Repo Man  
+2637: Mummy's Hand, The  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+1880: Lawn Dogs  
+2318: Happiness  
+396: Fall Time  
+3413: Impact  
+2970: Fitzcarraldo  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+2144: Sixteen Candles  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)  
+381: When a Man Loves a Woman
+2025-05-10 02:25:00,874 - INFO - 模型输出解析 - 解析后电影ID列表: [1590, 161, 3258, 3710, 2210, 1103, 1965, 2637, 3695, 1880, 2318, 396, 3413, 2970, 3723, 876, 4, 2144, 1251, 8, 1, 2, 3245, 381]
+2025-05-10 02:25:00,874 - INFO - NDCG计算 - 预测列表前10项: [1590, 161, 3258, 3710, 2210, 1103, 1965, 2637, 3695, 1880], 真实目标: 1965, NDCG@10: 0.3333333333333333
+2025-05-10 02:25:00,874 - INFO - 样本 9 (Trial 5): NDCG@10 = 0.3333
+2025-05-10 02:25:00,891 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），以下是重排后的推荐列表：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+1145: Snowriders
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+2025-05-10 02:25:00,891 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），以下是重排后的推荐列表：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+1145: Snowriders
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+2025-05-10 02:25:00,891 - INFO - 模型输出解析 - 解析后电影ID列表: [70, 1194, 785, 1083, 945, 1145, 3768, 3667, 3709, 3474, 2438, 1365, 29, 3822, 194, 2858, 1263, 2311, 2010, 1797, 2022, 2705]
+2025-05-10 02:25:00,891 - INFO - NDCG计算 - 预测列表前10项: [70, 1194, 785, 1083, 945, 1145, 3768, 3667, 3709, 3474], 真实目标: 1194, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:00,891 - INFO - 样本 1 (Trial 5): NDCG@10 = 0.6309
+2025-05-10 02:25:01,133 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度且带有艺术性的电影（如《The Green Mile》《Leaving Las Vegas》《Antonia's Line》），同时也对一些轻松幽默或经典作品感兴趣（如《Money Pit》《The Postman》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+1844: Live Flesh  
+1695: Artemisia  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+3303: Black Tar Heroin: The Dark End of the Street  
+396: Fall Time  
+3858: Cecil B. Demented  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:25:01,133 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度且带有艺术性的电影（如《The Green Mile》《Leaving Las Vegas》《Antonia's Line》），同时也对一些轻松幽默或经典作品感兴趣（如《Money Pit》《The Postman》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+1844: Live Flesh  
+1695: Artemisia  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+3303: Black Tar Heroin: The Dark End of the Street  
+396: Fall Time  
+3858: Cecil B. Demented  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:25:01,134 - INFO - 模型输出解析 - 解析后电影ID列表: [1844, 1695, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 3303, 396, 3858, 2123, 2720, 1731, 328, 2795]
+2025-05-10 02:25:01,134 - INFO - NDCG计算 - 预测列表前10项: [1844, 1695, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:01,134 - INFO - 样本 0 (Trial 5): NDCG@10 = 0.6309
+2025-05-10 02:25:01,484 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的文艺片、独立电影和剧情片偏好，结合候选电影的风格和主题，推荐排序如下：
+
+3251: Agnes of God
+887: Talk of Angels
+271: Losing Isaiah
+372: Reality Bites
+1815: Eden
+3626: 8 1/2 Women
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+3859: Eyes of Tammy Faye, The
+2960: Beefcake
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+185: Net, The
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+2409: Rocky II
+2137: Charlotte's Web
+1375: Star Trek III: The Search for Spock
+758: Jar, The (Khomreh)
+2025-05-10 02:25:01,485 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的文艺片、独立电影和剧情片偏好，结合候选电影的风格和主题，推荐排序如下：
+
+3251: Agnes of God
+887: Talk of Angels
+271: Losing Isaiah
+372: Reality Bites
+1815: Eden
+3626: 8 1/2 Women
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+3859: Eyes of Tammy Faye, The
+2960: Beefcake
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+185: Net, The
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+2409: Rocky II
+2137: Charlotte's Web
+1375: Star Trek III: The Search for Spock
+758: Jar, The (Khomreh)
+2025-05-10 02:25:01,485 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1815, 3626, 8, 1, 2, 359, 2249, 1259, 3859, 2960, 3378, 3312, 185, 3614, 2452, 2409, 2137, 1375, 758]
+2025-05-10 02:25:01,485 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1815, 3626, 8, 1, 2, 359], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:25:01,485 - INFO - 样本 6 (Trial 5): NDCG@10 = 0.4307
+2025-05-10 02:25:02,307 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+2507: Breakfast of Champions
+614: Loaded
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3325: Next Best Thing, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:25:02,307 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+2507: Breakfast of Champions
+614: Loaded
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3325: Next Best Thing, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:25:02,307 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 1858, 373, 1758, 1236, 1053, 971, 3145, 1537, 2997, 2507, 614, 3864, 2000, 3933, 3325, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:25:02,307 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 1858, 373, 1758, 1236, 1053, 971, 3145], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:25:02,307 - INFO - 样本 8 (Trial 5): NDCG@10 = 0.3562
+2025-05-10 02:25:04,285 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（Final Destination）、黑色幽默（American Psycho）、喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+818: Very Brady Sequel, A
+1539: Twin Town
+3701: Alien Nation
+2367: King Kong
+447: Favor, The
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:25:04,285 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（Final Destination）、黑色幽默（American Psycho）、喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+818: Very Brady Sequel, A
+1539: Twin Town
+3701: Alien Nation
+2367: King Kong
+447: Favor, The
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:25:04,285 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 1722, 122, 428, 1563, 818, 1539, 3701, 2367, 447, 691, 1555, 3420, 3768, 567, 3824, 1913, 2609, 3756]
+2025-05-10 02:25:04,285 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 1722, 122, 428, 1563, 818], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:25:04,285 - INFO - 样本 3 (Trial 5): NDCG@10 = 0.0000
+2025-05-10 02:25:04,285 - INFO - 开始第 6/10 次评估
+2025-05-10 02:25:04,342 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,345 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,347 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,348 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,348 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,348 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,349 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,349 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,349 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:04,350 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:13,100 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+1824: Homegrown
+145: Bad Boys
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+3882: Bring It On
+2025-05-10 02:25:13,100 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+1824: Homegrown
+145: Bad Boys
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+3882: Bring It On
+2025-05-10 02:25:13,101 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 1824, 145, 2227, 2160, 1671, 1822, 8, 2374, 2620, 3313, 1528, 2869, 1317, 863, 2993, 2074, 3882]
+2025-05-10 02:25:13,101 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 1824, 145, 2227, 2160, 1671, 1822, 8], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:25:13,101 - INFO - 样本 4 (Trial 6): NDCG@10 = 1.0000
+2025-05-10 02:25:15,549 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+3878: X: The Unknown
+249: Immortal Beloved
+2154: How Stella Got Her Groove Back
+381: When a Man Loves a Woman
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:25:15,549 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3360: Hoosiers
+3878: X: The Unknown
+249: Immortal Beloved
+2154: How Stella Got Her Groove Back
+381: When a Man Loves a Woman
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+146: Amazing Panda Adventure, The
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+2025-05-10 02:25:15,550 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360, 3878, 249, 2154, 381, 1611, 2943, 730, 803, 146, 3590, 2129]
+2025-05-10 02:25:15,550 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:25:15,550 - INFO - 样本 7 (Trial 6): NDCG@10 = 0.3333
+2025-05-10 02:25:16,142 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影类型偏好（动作/冒险、体育励志、法律剧情、犯罪惊悚等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1758: Dangerous Beauty
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+1053: Normal Life
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+2566: Doug's 1st Movie
+3672: Benji
+1024: Three Caballeros, The
+2049: Happiest Millionaire, The
+2025-05-10 02:25:16,142 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影类型偏好（动作/冒险、体育励志、法律剧情、犯罪惊悚等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1758: Dangerous Beauty
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+1053: Normal Life
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+2566: Doug's 1st Movie
+3672: Benji
+1024: Three Caballeros, The
+2049: Happiest Millionaire, The
+2025-05-10 02:25:16,142 - INFO - 模型输出解析 - 解析后电影ID列表: [3107, 1343, 1858, 373, 1236, 1758, 614, 2507, 971, 1053, 3145, 1537, 2997, 3325, 3864, 2000, 3933, 2566, 1, 3672, 1024, 2049]
+2025-05-10 02:25:16,142 - INFO - NDCG计算 - 预测列表前10项: [3107, 1343, 1858, 373, 1236, 1758, 614, 2507, 971, 1053], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:25:16,142 - INFO - 样本 8 (Trial 6): NDCG@10 = 0.3562
+2025-05-10 02:25:16,750 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+1523: Truth or Consequences, N.M.
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+3790: Groove
+2025-05-10 02:25:16,750 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+1523: Truth or Consequences, N.M.
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+3790: Groove
+2025-05-10 02:25:16,750 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 1232, 3761, 2644, 537, 823, 2261, 3247, 1523, 2791, 370, 33, 1, 3, 3790]
+2025-05-10 02:25:16,750 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:16,750 - INFO - 样本 5 (Trial 6): NDCG@10 = 0.6309
+2025-05-10 02:25:17,110 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格作品（Showgirls, Supernova）。以下是重排后的推荐顺序：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+1722: Tomorrow Never Dies
+3768: Braddock: Missing in Action III
+2367: King Kong
+3701: Alien Nation
+1563: Dream With the Fishes
+1539: Twin Town
+428: Bronx Tale, A
+1555: To Have, or Not
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+567: Kika
+3824: Autumn in New York
+3756: Golden Bowl, The
+2609: King of Masks, The (Bian Lian)
+1913: Picnic at Hanging Rock
+2025-05-10 02:25:17,111 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好混合了动作片（Gladiator）、黑色幽默/犯罪（American Psycho）、惊悚/恐怖（Final Destination）、喜剧（Meet the Parents, Big Momma's House）以及一些cult风格作品（Showgirls, Supernova）。以下是重排后的推荐顺序：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+1722: Tomorrow Never Dies
+3768: Braddock: Missing in Action III
+2367: King Kong
+3701: Alien Nation
+1563: Dream With the Fishes
+1539: Twin Town
+428: Bronx Tale, A
+1555: To Have, or Not
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+567: Kika
+3824: Autumn in New York
+3756: Golden Bowl, The
+2609: King of Masks, The (Bian Lian)
+1913: Picnic at Hanging Rock
+2025-05-10 02:25:17,111 - INFO - 模型输出解析 - 解析后电影ID列表: [370, 33, 1, 3, 21, 122, 1722, 3768, 2367, 3701, 1563, 1539, 428, 1555, 447, 3420, 818, 691, 567, 3824, 3756, 2609, 1913]
+2025-05-10 02:25:17,111 - INFO - NDCG计算 - 预测列表前10项: [370, 33, 1, 3, 21, 122, 1722, 3768, 2367, 3701], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:25:17,111 - INFO - 样本 3 (Trial 6): NDCG@10 = 0.0000
+2025-05-10 02:25:18,159 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好具有以下特点：
+1. 偏向文艺片和独立电影（如High Art, Little Women, Angels and Insects）
+2. 对文学改编作品感兴趣（如Secret Garden, Little Women）
+3. 喜欢带有社会议题或心理深度的剧情片（如Sleepers, Cop Land, Love and Death on Long Island）
+4. 对90年代电影有明显偏好（多数观看影片为90年代作品）
+
+基于这些特征，我对候选电影的推荐排序如下：
+
+3251: Agnes of God
+887: Talk of Angels
+271: Losing Isaiah
+372: Reality Bites
+1815: Eden
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+3626: 8 1/2 Women
+3859: Eyes of Tammy Faye, The
+2960: Beefcake
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+185: Net, The
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+2409: Rocky II
+2137: Charlotte's Web
+1375: Star Trek III: The Search for Spock
+758: Jar, The (Khomreh)
+2025-05-10 02:25:18,159 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好具有以下特点：
+1. 偏向文艺片和独立电影（如High Art, Little Women, Angels and Insects）
+2. 对文学改编作品感兴趣（如Secret Garden, Little Women）
+3. 喜欢带有社会议题或心理深度的剧情片（如Sleepers, Cop Land, Love and Death on Long Island）
+4. 对90年代电影有明显偏好（多数观看影片为90年代作品）
+
+基于这些特征，我对候选电影的推荐排序如下：
+
+3251: Agnes of God
+887: Talk of Angels
+271: Losing Isaiah
+372: Reality Bites
+1815: Eden
+359: I Like It Like That
+2249: My Blue Heaven
+1259: Stand by Me
+3626: 8 1/2 Women
+3859: Eyes of Tammy Faye, The
+2960: Beefcake
+3378: Ogre, The (Der Unhold)
+3312: McCullochs, The
+185: Net, The
+3614: Honeymoon in Vegas
+2452: Gate II: Trespassers, The
+2409: Rocky II
+2137: Charlotte's Web
+1375: Star Trek III: The Search for Spock
+758: Jar, The (Khomreh)
+2025-05-10 02:25:18,159 - INFO - 模型输出解析 - 解析后电影ID列表: [1, 2, 3, 4, 90, 90, 3251, 887, 271, 372, 1815, 359, 2249, 1259, 3626, 8, 1, 2, 3859, 2960, 3378, 3312, 185, 3614, 2452, 2409, 2137, 1375, 758]
+2025-05-10 02:25:18,159 - INFO - NDCG计算 - 预测列表前10项: [1, 2, 3, 4, 90, 90, 3251, 887, 271, 372], 真实目标: 372, NDCG@10: 0.2890648263178879
+2025-05-10 02:25:18,159 - INFO - 样本 6 (Trial 6): NDCG@10 = 0.2891
+2025-05-10 02:25:18,577 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），以下是重排后的推荐列表：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+945: Top Hat
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+2858: American Beauty
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2022: Last Temptation of Christ, The
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2705: Late August, Early September (Fin août, début septembre)
+
+优先推荐顺序说明：
+1. 首选与用户历史最相似的喜剧类型（Up in Smoke, Kingpin）
+2. 次选怀旧动作/冒险喜剧（Great Race, Snowriders）
+3. 然后是带有幽默元素的动作片（Braddock, Rent-A-Cop）
+4. 最后是较严肃或艺术性较强的影片
+2025-05-10 02:25:18,577 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），以下是重排后的推荐列表：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+945: Top Hat
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+2858: American Beauty
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2022: Last Temptation of Christ, The
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2705: Late August, Early September (Fin août, début septembre)
+
+优先推荐顺序说明：
+1. 首选与用户历史最相似的喜剧类型（Up in Smoke, Kingpin）
+2. 次选怀旧动作/冒险喜剧（Great Race, Snowriders）
+3. 然后是带有幽默元素的动作片（Braddock, Rent-A-Cop）
+4. 最后是较严肃或艺术性较强的影片
+2025-05-10 02:25:18,577 - INFO - 模型输出解析 - 解析后电影ID列表: [70, 1194, 785, 1083, 1145, 945, 3768, 3667, 3709, 3474, 2438, 1365, 2858, 29, 3822, 194, 2022, 2311, 2010, 1263, 1797, 2705, 1, 2, 3, 4]
+2025-05-10 02:25:18,577 - INFO - NDCG计算 - 预测列表前10项: [70, 1194, 785, 1083, 1145, 945, 3768, 3667, 3709, 3474], 真实目标: 1194, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:18,577 - INFO - 样本 1 (Trial 6): NDCG@10 = 0.6309
+2025-05-10 02:25:18,914 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《安东尼娅家族》），同时也包含一些经典改编作品（如《邮差》）。以下是重排后的电影ID列表，最可能观看的优先：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:25:18,915 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《安东尼娅家族》），同时也包含一些经典改编作品（如《邮差》）。以下是重排后的电影ID列表，最可能观看的优先：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:25:18,915 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 396, 3858, 3303, 328, 2123, 2720, 1731, 2795]
+2025-05-10 02:25:18,915 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:25:18,915 - INFO - 样本 0 (Trial 6): NDCG@10 = 1.0000
+2025-05-10 02:25:23,677 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典剧情片），以下是重排后的电影ID列表：
+
+3258: Death Becomes Her (黑色幽默/奇幻 - 类似Edward Scissorhands和Boogie Nights的怪诞风格)
+1590: Event Horizon (科幻/恐怖 - 类似Terminator 2和Rosemary's Baby的黑暗科幻元素)
+161: Crimson Tide (动作/剧情 - 类似Terminator 2和From Russia with Love的紧张氛围)
+1103: Rebel Without a Cause (经典剧情 - 类似High Fidelity和After Life的人物驱动故事)
+2318: Happiness (黑色喜剧 - 类似Boogie Nights的社会边缘题材)
+1965: Repo Man (cult经典 - 类似Big Kahuna的另类幽默)
+2970: Fitzcarraldo (艺术冒险 - 类似Braveheart的宏大叙事)
+1251: 8 1/2 (艺术电影 - 类似After Life的哲思性)
+1880: Lawn Dogs (社会寓言 - 类似Edward Scissorhands的 outsider视角)
+2144: Sixteen Candles (青春喜剧 - 类似High Fidelity的浪漫元素)
+3723: Hamlet (经典改编 - 文学性类似Braveheart)
+3245: I Am Cuba (艺术电影 - 实验性类似8 1/2)
+396: Fall Time (犯罪惊悚 - 中等相关性)
+2210: Sabotage (经典悬疑 - 中等相关性)
+2637: Mummy's Hand, The (冒险 - 较低相关性)
+3710: Action Jackson (动作 - 较低相关性)
+3695: Toxic Avenger Part III (cult喜剧 - 较低相关性)
+876: Police Story 4 (港产动作 - 较低相关性)
+3413: Impact (老片 - 较低相关性)
+381: When a Man Loves a Woman (家庭剧情 - 相关性最低)
+2025-05-10 02:25:23,677 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典剧情片），以下是重排后的电影ID列表：
+
+3258: Death Becomes Her (黑色幽默/奇幻 - 类似Edward Scissorhands和Boogie Nights的怪诞风格)
+1590: Event Horizon (科幻/恐怖 - 类似Terminator 2和Rosemary's Baby的黑暗科幻元素)
+161: Crimson Tide (动作/剧情 - 类似Terminator 2和From Russia with Love的紧张氛围)
+1103: Rebel Without a Cause (经典剧情 - 类似High Fidelity和After Life的人物驱动故事)
+2318: Happiness (黑色喜剧 - 类似Boogie Nights的社会边缘题材)
+1965: Repo Man (cult经典 - 类似Big Kahuna的另类幽默)
+2970: Fitzcarraldo (艺术冒险 - 类似Braveheart的宏大叙事)
+1251: 8 1/2 (艺术电影 - 类似After Life的哲思性)
+1880: Lawn Dogs (社会寓言 - 类似Edward Scissorhands的 outsider视角)
+2144: Sixteen Candles (青春喜剧 - 类似High Fidelity的浪漫元素)
+3723: Hamlet (经典改编 - 文学性类似Braveheart)
+3245: I Am Cuba (艺术电影 - 实验性类似8 1/2)
+396: Fall Time (犯罪惊悚 - 中等相关性)
+2210: Sabotage (经典悬疑 - 中等相关性)
+2637: Mummy's Hand, The (冒险 - 较低相关性)
+3710: Action Jackson (动作 - 较低相关性)
+3695: Toxic Avenger Part III (cult喜剧 - 较低相关性)
+876: Police Story 4 (港产动作 - 较低相关性)
+3413: Impact (老片 - 较低相关性)
+381: When a Man Loves a Woman (家庭剧情 - 相关性最低)
+2025-05-10 02:25:23,677 - INFO - 模型输出解析 - 解析后电影ID列表: [3258, 1590, 2, 161, 2, 1103, 2318, 1965, 2970, 1251, 8, 1, 2, 1880, 2144, 3723, 3245, 8, 1, 2, 396, 2210, 2637, 3710, 3695, 876, 4, 3413, 381]
+2025-05-10 02:25:23,677 - INFO - NDCG计算 - 预测列表前10项: [3258, 1590, 2, 161, 2, 1103, 2318, 1965, 2970, 1251], 真实目标: 1965, NDCG@10: 0.31546487678572877
+2025-05-10 02:25:23,678 - INFO - 样本 9 (Trial 6): NDCG@10 = 0.3155
+2025-05-10 02:25:29,961 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、带有超自然或未来元素的电影（如《Stargate》《Strange Days》《Mad Max》《Tron》《X-Files》《Independence Day》《Star Trek》）。同时也有对经典科幻续集（《Superman II》）和惊悚题材（《Body Snatchers》）的兴趣。以下是重排后的推荐顺序，优先考虑科幻/奇幻、动作冒险、未来设定或类似风格的电影：
+
+1. 2011: Back to the Future Part II （经典科幻续集，时间旅行主题）
+2. 3699: Starman （科幻/外星人题材，与《Superman》《Stargate》调性相似）  
+3. 2532: Conquest of the Planet of the Apes （科幻反乌托邦，类似《Mad Max》的末世感）
+4. 555: True Romance （虽然偏犯罪片，但编剧与《Strange Days》相同，风格强烈）
+5. 3557: Jennifer 8 （悬疑惊悚，接近《Body Snatchers》的紧张感）
+6. 2562: Bandits （动作犯罪片，作为类型调剂）
+7. 515: Remains of the Day, The （历史剧情片，用户可能对严肃题材有兴趣）
+8. 1541: Addicted to Love （浪漫喜剧，作为风格补充）
+9. 1257: Better Off Dead... （80年代青春喜剧，调剂用）
+10. 2467: Name of the Rose, The （历史悬疑，偏严肃）
+11. 2482: Still Crazy （音乐喜剧，风格差异较大）
+12. 2703: Broken Vessels （独立犯罪片）
+13. 1357: Shine （传记剧情片）
+14. 1102: American Strays （黑色幽默犯罪片）
+15. 1420: Message to Love: The Isle of Wight Festival （音乐纪录片）
+16. 421: Black Beauty （家庭剧情片）
+17. 310: Rent-a-Kid （家庭喜剧）
+18. 1174: Grosse Fatigue （法国喜剧，风格差异大）
+19. 576: Fausto （艺术片）
+20. 3739: Trouble in Paradise （经典老片）
+
+最终推荐ID排序（前10名优先）：
+2011, 3699, 2532, 555, 3557, 2562, 515, 1541, 1257, 2467, 2482, 2703, 1357, 1102, 1420, 421, 310, 1174, 576, 3739
+2025-05-10 02:25:29,961 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、带有超自然或未来元素的电影（如《Stargate》《Strange Days》《Mad Max》《Tron》《X-Files》《Independence Day》《Star Trek》）。同时也有对经典科幻续集（《Superman II》）和惊悚题材（《Body Snatchers》）的兴趣。以下是重排后的推荐顺序，优先考虑科幻/奇幻、动作冒险、未来设定或类似风格的电影：
+
+1. 2011: Back to the Future Part II （经典科幻续集，时间旅行主题）
+2. 3699: Starman （科幻/外星人题材，与《Superman》《Stargate》调性相似）  
+3. 2532: Conquest of the Planet of the Apes （科幻反乌托邦，类似《Mad Max》的末世感）
+4. 555: True Romance （虽然偏犯罪片，但编剧与《Strange Days》相同，风格强烈）
+5. 3557: Jennifer 8 （悬疑惊悚，接近《Body Snatchers》的紧张感）
+6. 2562: Bandits （动作犯罪片，作为类型调剂）
+7. 515: Remains of the Day, The （历史剧情片，用户可能对严肃题材有兴趣）
+8. 1541: Addicted to Love （浪漫喜剧，作为风格补充）
+9. 1257: Better Off Dead... （80年代青春喜剧，调剂用）
+10. 2467: Name of the Rose, The （历史悬疑，偏严肃）
+11. 2482: Still Crazy （音乐喜剧，风格差异较大）
+12. 2703: Broken Vessels （独立犯罪片）
+13. 1357: Shine （传记剧情片）
+14. 1102: American Strays （黑色幽默犯罪片）
+15. 1420: Message to Love: The Isle of Wight Festival （音乐纪录片）
+16. 421: Black Beauty （家庭剧情片）
+17. 310: Rent-a-Kid （家庭喜剧）
+18. 1174: Grosse Fatigue （法国喜剧，风格差异大）
+19. 576: Fausto （艺术片）
+20. 3739: Trouble in Paradise （经典老片）
+
+最终推荐ID排序（前10名优先）：
+2011, 3699, 2532, 555, 3557, 2562, 515, 1541, 1257, 2467, 2482, 2703, 1357, 1102, 1420, 421, 310, 1174, 576, 3739
+2025-05-10 02:25:29,961 - INFO - 模型输出解析 - 解析后电影ID列表: [1, 2011, 2, 3699, 3, 2532, 4, 555, 5, 3557, 8, 6, 2562, 7, 515, 8, 1541, 9, 1257, 80, 10, 2467, 11, 2482, 12, 2703, 13, 1357, 14, 1102, 15, 1420, 16, 421, 17, 310, 18, 1174, 19, 576, 20, 3739, 10, 2011, 3699, 2532, 555, 3557, 2562, 515, 1541, 1257, 2467, 2482, 2703, 1357, 1102, 1420, 421, 310, 1174, 576, 3739]
+2025-05-10 02:25:29,961 - INFO - NDCG计算 - 预测列表前10项: [1, 2011, 2, 3699, 3, 2532, 4, 555, 5, 3557], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:29,961 - INFO - 样本 2 (Trial 6): NDCG@10 = 0.6309
+2025-05-10 02:25:29,961 - INFO - 开始第 7/10 次评估
+2025-05-10 02:25:30,013 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,118 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,119 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,120 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,123 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,124 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,125 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,126 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,126 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:30,127 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:39,592 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+1822: Meet the Deedles
+3882: Bring It On
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+1317: I'm Not Rappaport
+1528: Intimate Relations
+1671: Deceiver
+2160: Rosemary's Baby
+2227: Lodger, The
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+2025-05-10 02:25:39,593 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+1822: Meet the Deedles
+3882: Bring It On
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+1317: I'm Not Rappaport
+1528: Intimate Relations
+1671: Deceiver
+2160: Rosemary's Baby
+2227: Lodger, The
+2869: Separation, The (La Séparation)
+3313: Class Reunion
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+2025-05-10 02:25:39,593 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 145, 1824, 1822, 3882, 8, 2374, 2620, 1317, 1528, 1671, 2160, 2227, 2869, 3313, 863, 2993, 2074]
+2025-05-10 02:25:39,593 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 145, 1824, 1822, 3882, 8, 2374, 2620], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:25:39,593 - INFO - 样本 4 (Trial 7): NDCG@10 = 1.0000
+2025-05-10 02:25:40,797 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中科幻、动作冒险和经典续集电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+515: Remains of the Day, The
+2467: Name of the Rose, The
+1541: Addicted to Love
+1257: Better Off Dead...
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+3557: Jennifer 8
+2562: Bandits
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:25:40,798 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中科幻、动作冒险和经典续集电影的偏好，以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+515: Remains of the Day, The
+2467: Name of the Rose, The
+1541: Addicted to Love
+1257: Better Off Dead...
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+3557: Jennifer 8
+2562: Bandits
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:25:40,798 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 515, 2467, 1541, 1257, 2482, 2703, 1357, 1102, 1420, 421, 3557, 8, 2562, 1174, 310, 576, 3739]
+2025-05-10 02:25:40,798 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 515, 2467, 1541, 1257, 2482, 2703], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:40,798 - INFO - 样本 2 (Trial 7): NDCG@10 = 0.6309
+2025-05-10 02:25:40,799 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、情感深度、文学改编和社会议题），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+1232: Stalker
+607: Century
+823: Collectionneuse, La
+537: Sirens
+2644: Dracula
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:25:40,799 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、情感深度、文学改编和社会议题），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+1232: Stalker
+607: Century
+823: Collectionneuse, La
+537: Sirens
+2644: Dracula
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:25:40,799 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 3761, 1232, 607, 823, 537, 2644, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:25:40,800 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 3761, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:25:40,800 - INFO - 样本 5 (Trial 7): NDCG@10 = 0.6309
+2025-05-10 02:25:41,144 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3878: X: The Unknown
+249: Immortal Beloved
+3360: Hoosiers
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+146: Amazing Panda Adventure, The
+2025-05-10 02:25:41,144 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+1483: Crash
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1965: Repo Man
+3878: X: The Unknown
+249: Immortal Beloved
+3360: Hoosiers
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3590: Lords of Flatbush, The
+2129: Saltmen of Tibet, The
+146: Amazing Panda Adventure, The
+2025-05-10 02:25:41,144 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3878, 249, 3360, 381, 2154, 1611, 2943, 730, 803, 3590, 2129, 146]
+2025-05-10 02:25:41,144 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3176, 3219, 1965, 3878], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:25:41,144 - INFO - 样本 7 (Trial 7): NDCG@10 = 0.3333
+2025-05-10 02:25:41,319 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文艺片、有深度的故事），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+1731: Mr. Magoo  
+2720: Inspector Gadget  
+2795: Vacation
+2025-05-10 02:25:41,319 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文艺片、有深度的故事），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1695: Artemisia  
+1844: Live Flesh  
+1656: Swept from the Sea  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+1731: Mr. Magoo  
+2720: Inspector Gadget  
+2795: Vacation
+2025-05-10 02:25:41,319 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 396, 3858, 3303, 328, 2123, 1731, 2720, 2795]
+2025-05-10 02:25:41,319 - INFO - NDCG计算 - 预测列表前10项: [1695, 1844, 1656, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:25:41,319 - INFO - 样本 0 (Trial 7): NDCG@10 = 1.0000
+2025-05-10 02:25:41,445 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和带有戏剧性的电影。以下是重排后的推荐列表：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+428: Bronx Tale, A
+1722: Tomorrow Never Dies
+2367: King Kong
+3768: Braddock: Missing in Action III
+3701: Alien Nation
+1563: Dream With the Fishes
+1539: Twin Town
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3824: Autumn in New York
+567: Kika
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:25:41,445 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和带有戏剧性的电影。以下是重排后的推荐列表：
+
+370: Naked Gun 33 1/3: The Final Insult
+21: Get Shorty
+122: Boomerang
+428: Bronx Tale, A
+1722: Tomorrow Never Dies
+2367: King Kong
+3768: Braddock: Missing in Action III
+3701: Alien Nation
+1563: Dream With the Fishes
+1539: Twin Town
+447: Favor, The
+3420: ...And Justice for All
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+1555: To Have, or Not
+3824: Autumn in New York
+567: Kika
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:25:41,445 - INFO - 模型输出解析 - 解析后电影ID列表: [370, 33, 1, 3, 21, 122, 428, 1722, 2367, 3768, 3701, 1563, 1539, 447, 3420, 818, 691, 1555, 3824, 567, 1913, 2609, 3756]
+2025-05-10 02:25:41,445 - INFO - NDCG计算 - 预测列表前10项: [370, 33, 1, 3, 21, 122, 428, 1722, 2367, 3768], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:25:41,445 - INFO - 样本 3 (Trial 7): NDCG@10 = 0.0000
+2025-05-10 02:25:42,171 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好偏向于独立电影、文艺片、带有深刻情感或社会议题的影片，以及一些经典文学改编作品。基于这些特点，以下是重排后的候选电影ID列表，最可能观看的放在最前面：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2249: My Blue Heaven  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:25:42,171 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好偏向于独立电影、文艺片、带有深刻情感或社会议题的影片，以及一些经典文学改编作品。基于这些特点，以下是重排后的候选电影ID列表，最可能观看的放在最前面：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2249: My Blue Heaven  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:25:42,172 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1259, 1815, 359, 3626, 8, 1, 2, 3859, 2249, 2960, 3378, 3312, 185, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:25:42,172 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1259, 1815, 359, 3626, 8, 1], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:25:42,172 - INFO - 样本 6 (Trial 7): NDCG@10 = 0.4307
+2025-05-10 02:25:44,462 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格和轻松娱乐性强的电影），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 2438, 3474, 3822, 29, 2858, 1365, 194, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. **Up in Smoke (1194)** 和 **Kingpin (785)** - 与《Animal House》《Blazing Saddles》同类的荒诞喜剧
+2. **Top Hat (945)** 和 **Great Race (1083)** - 经典怀旧歌舞/喜剧，类似《Grease》的复古风格
+3. **Braddock (3768)** 和 **Rent-A-Cop (3667)** - 动作喜剧，符合《Kelly's Heroes》的娱乐性
+4. **Sleepwalkers (3709)** - 恐怖喜剧，接近《Meatballs》的恶搞风格
+5. 其他较严肃或艺术性较强的电影排在后面，因用户历史显示偏好轻松娱乐类型
+2025-05-10 02:25:44,462 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格和轻松娱乐性强的电影），以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 2438, 3474, 3822, 29, 2858, 1365, 194, 2705, 2022, 1263, 2311, 1797
+
+推荐理由：
+1. **Up in Smoke (1194)** 和 **Kingpin (785)** - 与《Animal House》《Blazing Saddles》同类的荒诞喜剧
+2. **Top Hat (945)** 和 **Great Race (1083)** - 经典怀旧歌舞/喜剧，类似《Grease》的复古风格
+3. **Braddock (3768)** 和 **Rent-A-Cop (3667)** - 动作喜剧，符合《Kelly's Heroes》的娱乐性
+4. **Sleepwalkers (3709)** - 恐怖喜剧，接近《Meatballs》的恶搞风格
+5. 其他较严肃或艺术性较强的电影排在后面，因用户历史显示偏好轻松娱乐类型
+2025-05-10 02:25:44,463 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 2438, 3474, 3822, 29, 2858, 1365, 194, 2705, 2022, 1263, 2311, 1797, 1, 1194, 785, 2, 945, 1083, 3, 3768, 3667, 4, 3709, 5]
+2025-05-10 02:25:44,463 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 945, 1083, 3768, 3667, 3709, 1145, 2438, 3474], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:25:44,464 - INFO - 样本 1 (Trial 7): NDCG@10 = 1.0000
+2025-05-10 02:25:45,323 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影类型偏好（动作/冒险、体育励志、法律剧情、犯罪惊悚等），以下是重排后的候选电影ID列表，最可能观看的放前面：
+
+3107: Backdraft  
+1343: Cape Fear  
+1858: Mr. Nice Guy  
+373: Red Rock West  
+1236: Trust  
+1758: Dangerous Beauty  
+614: Loaded  
+1053: Normal Life  
+2507: Breakfast of Champions  
+3325: Next Best Thing, The  
+3145: Cradle Will Rock, The  
+1537: Shall We Dance? (Shall We Dansu?)  
+2997: Being John Malkovich  
+971: Cat on a Hot Tin Roof  
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)  
+3933: Killer Shrews, The  
+3672: Benji  
+2566: Doug's 1st Movie  
+2049: Happiest Millionaire, The  
+1024: Three Caballeros, The  
+
+排序逻辑：  
+1. **动作/犯罪类**优先（Backdraft、Cape Fear、Mr. Nice Guy）  
+2. **剧情/惊悚类**次之（Red Rock West、Trust、Dangerous Beauty）  
+3. 用户近期无动画/音乐剧观影记录，相关影片（如Three Caballeros）置后
+2025-05-10 02:25:45,323 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影类型偏好（动作/冒险、体育励志、法律剧情、犯罪惊悚等），以下是重排后的候选电影ID列表，最可能观看的放前面：
+
+3107: Backdraft  
+1343: Cape Fear  
+1858: Mr. Nice Guy  
+373: Red Rock West  
+1236: Trust  
+1758: Dangerous Beauty  
+614: Loaded  
+1053: Normal Life  
+2507: Breakfast of Champions  
+3325: Next Best Thing, The  
+3145: Cradle Will Rock, The  
+1537: Shall We Dance? (Shall We Dansu?)  
+2997: Being John Malkovich  
+971: Cat on a Hot Tin Roof  
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)  
+3933: Killer Shrews, The  
+3672: Benji  
+2566: Doug's 1st Movie  
+2049: Happiest Millionaire, The  
+1024: Three Caballeros, The  
+
+排序逻辑：  
+1. **动作/犯罪类**优先（Backdraft、Cape Fear、Mr. Nice Guy）  
+2. **剧情/惊悚类**次之（Red Rock West、Trust、Dangerous Beauty）  
+3. 用户近期无动画/音乐剧观影记录，相关影片（如Three Caballeros）置后
+2025-05-10 02:25:45,323 - INFO - 模型输出解析 - 解析后电影ID列表: [3107, 1343, 1858, 373, 1236, 1758, 614, 1053, 2507, 3325, 3145, 1537, 2997, 971, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024, 1, 2, 3]
+2025-05-10 02:25:45,323 - INFO - NDCG计算 - 预测列表前10项: [3107, 1343, 1858, 373, 1236, 1758, 614, 1053, 2507, 3325], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:25:45,323 - INFO - 样本 8 (Trial 7): NDCG@10 = 0.3562
+2025-05-10 02:25:51,984 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好科幻/动作（Terminator 2, Edward Scissorhands）、经典/文艺（Boogie Nights, After Life）、历史/史诗（Braveheart）、惊悚/恐怖（Rosemary's Baby）、间谍/冒险（From Russia with Love）以及音乐/喜剧（High Fidelity）等类型。以下是重排后的推荐顺序：
+
+1590: Event Horizon (科幻/恐怖，类似Terminator 2和Rosemary's Baby)
+161: Crimson Tide (动作/惊悚，类似Terminator 2)
+1103: Rebel Without a Cause (经典文艺，类似Boogie Nights)
+2318: Happiness (黑色幽默/剧情，类似High Fidelity)
+1965: Repo Man (另类科幻/喜剧，类似Edward Scissorhands)
+3258: Death Becomes Her (黑色喜剧/奇幻，类似Edward Scissorhands)
+2970: Fitzcarraldo (文艺/冒险，类似After Life)
+1251: 8 1/2 (文艺经典，类似After Life)
+2144: Sixteen Candles (青春喜剧，类似High Fidelity)
+1880: Lawn Dogs (文艺剧情，类似After Life)
+3723: Hamlet (经典改编，类似Braveheart)
+3245: I Am Cuba (文艺经典，类似After Life)
+396: Fall Time (犯罪惊悚，类似From Russia with Love)
+2210: Sabotage (动作惊悚，类似From Russia with Love)
+3710: Action Jackson (动作喜剧，类似Terminator 2和High Fidelity混合)
+2637: Mummy's Hand, The (冒险/恐怖，类似Rosemary's Baby)
+3695: Toxic Avenger Part III (另类喜剧，类似Edward Scissorhands的怪诞风格)
+876: Police Story 4 (动作片，类似Terminator 2)
+381: When a Man Loves a Woman (剧情片，类似After Life)
+3413: Impact (不太符合主要偏好)
+
+最终排序ID列表：
+1590,161,1103,2318,1965,3258,2970,1251,2144,1880,3723,3245,396,2210,3710,2637,3695,876,381,3413
+2025-05-10 02:25:51,984 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好科幻/动作（Terminator 2, Edward Scissorhands）、经典/文艺（Boogie Nights, After Life）、历史/史诗（Braveheart）、惊悚/恐怖（Rosemary's Baby）、间谍/冒险（From Russia with Love）以及音乐/喜剧（High Fidelity）等类型。以下是重排后的推荐顺序：
+
+1590: Event Horizon (科幻/恐怖，类似Terminator 2和Rosemary's Baby)
+161: Crimson Tide (动作/惊悚，类似Terminator 2)
+1103: Rebel Without a Cause (经典文艺，类似Boogie Nights)
+2318: Happiness (黑色幽默/剧情，类似High Fidelity)
+1965: Repo Man (另类科幻/喜剧，类似Edward Scissorhands)
+3258: Death Becomes Her (黑色喜剧/奇幻，类似Edward Scissorhands)
+2970: Fitzcarraldo (文艺/冒险，类似After Life)
+1251: 8 1/2 (文艺经典，类似After Life)
+2144: Sixteen Candles (青春喜剧，类似High Fidelity)
+1880: Lawn Dogs (文艺剧情，类似After Life)
+3723: Hamlet (经典改编，类似Braveheart)
+3245: I Am Cuba (文艺经典，类似After Life)
+396: Fall Time (犯罪惊悚，类似From Russia with Love)
+2210: Sabotage (动作惊悚，类似From Russia with Love)
+3710: Action Jackson (动作喜剧，类似Terminator 2和High Fidelity混合)
+2637: Mummy's Hand, The (冒险/恐怖，类似Rosemary's Baby)
+3695: Toxic Avenger Part III (另类喜剧，类似Edward Scissorhands的怪诞风格)
+876: Police Story 4 (动作片，类似Terminator 2)
+381: When a Man Loves a Woman (剧情片，类似After Life)
+3413: Impact (不太符合主要偏好)
+
+最终排序ID列表：
+1590,161,1103,2318,1965,3258,2970,1251,2144,1880,3723,3245,396,2210,3710,2637,3695,876,381,3413
+2025-05-10 02:25:51,984 - INFO - 模型输出解析 - 解析后电影ID列表: [2, 1590, 2, 161, 2, 1103, 2318, 1965, 3258, 2970, 1251, 8, 1, 2, 2144, 1880, 3723, 3245, 396, 2210, 3710, 2, 2637, 3695, 876, 4, 2, 381, 3413, 1590, 161, 1103, 2318, 1965, 3258, 2970, 1251, 2144, 1880, 3723, 3245, 396, 2210, 3710, 2637, 3695, 876, 381, 3413]
+2025-05-10 02:25:51,984 - INFO - NDCG计算 - 预测列表前10项: [2, 1590, 2, 161, 2, 1103, 2318, 1965, 3258, 2970], 真实目标: 1965, NDCG@10: 0.31546487678572877
+2025-05-10 02:25:51,984 - INFO - 样本 9 (Trial 7): NDCG@10 = 0.3155
+2025-05-10 02:25:51,985 - INFO - 开始第 8/10 次评估
+2025-05-10 02:25:52,042 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,116 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,118 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,119 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,119 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,121 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,121 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,122 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,128 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:25:52,129 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:01,063 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+145: Bad Boys
+8: Tom and Huck
+3618: Small Time Crooks
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+2620: This Is My Father
+1317: I'm Not Rappaport
+2374: Gung Ho
+3882: Bring It On
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+1822: Meet the Deedles
+2025-05-10 02:26:01,063 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+145: Bad Boys
+8: Tom and Huck
+3618: Small Time Crooks
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+2620: This Is My Father
+1317: I'm Not Rappaport
+2374: Gung Ho
+3882: Bring It On
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+1822: Meet the Deedles
+2025-05-10 02:26:01,063 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 145, 8, 3618, 1824, 2227, 2160, 1671, 3313, 1528, 2869, 2620, 1317, 2374, 3882, 863, 2993, 2074, 1822]
+2025-05-10 02:26:01,063 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 145, 8, 3618, 1824, 2227, 2160, 1671, 3313], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:26:01,063 - INFO - 样本 4 (Trial 8): NDCG@10 = 1.0000
+2025-05-10 02:26:02,799 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+1232: Stalker
+537: Sirens
+2644: Dracula
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:02,799 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+1232: Stalker
+537: Sirens
+2644: Dracula
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:02,799 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 3761, 1232, 537, 2644, 823, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:26:02,799 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 3761], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:02,799 - INFO - 样本 5 (Trial 8): NDCG@10 = 0.6309
+2025-05-10 02:26:03,193 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、情感深刻的剧情片），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1815: Eden  
+3626: 8 1/2 Women  
+359: I Like It Like That  
+2249: My Blue Heaven  
+1259: Stand by Me  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:03,194 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的电影类型和风格偏好（独立电影、文艺片、情感深刻的剧情片），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1815: Eden  
+3626: 8 1/2 Women  
+359: I Like It Like That  
+2249: My Blue Heaven  
+1259: Stand by Me  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:03,194 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1815, 3626, 8, 1, 2, 359, 2249, 1259, 3859, 2960, 3378, 3312, 185, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:26:03,194 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1815, 3626, 8, 1, 2, 359], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:26:03,194 - INFO - 样本 6 (Trial 8): NDCG@10 = 0.4307
+2025-05-10 02:26:03,376 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好动作冒险类、惊悚悬疑类以及经典大片。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1483: Crash
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+2129: Saltmen of Tibet, The
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:03,376 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好动作冒险类、惊悚悬疑类以及经典大片。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+2571: Matrix, The
+3623: Mission: Impossible 2
+2867: Fright Night
+2550: Haunting, The
+3176: Talented Mr. Ripley, The
+3219: Pacific Heights
+1483: Crash
+1965: Repo Man
+3360: Hoosiers
+249: Immortal Beloved
+381: When a Man Loves a Woman
+2154: How Stella Got Her Groove Back
+1611: My Own Private Idaho
+2943: Indochine
+730: Low Life, The
+803: Walking and Talking
+3878: X: The Unknown
+2129: Saltmen of Tibet, The
+3590: Lords of Flatbush, The
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:03,376 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 3176, 3219, 1483, 1965, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3878, 2129, 3590, 146]
+2025-05-10 02:26:03,377 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 3176, 3219, 1483, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3562071871080222
+2025-05-10 02:26:03,377 - INFO - 样本 7 (Trial 8): NDCG@10 = 0.3562
+2025-05-10 02:26:03,452 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好喜剧、荒诞幽默、经典喜剧和轻松娱乐的电影（如Animal House, Monty Python, Blazing Saddles, The Jerk等）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+2858: American Beauty
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+1145: Snowriders
+2025-05-10 02:26:03,453 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好喜剧、荒诞幽默、经典喜剧和轻松娱乐的电影（如Animal House, Monty Python, Blazing Saddles, The Jerk等）。以下是重排后的推荐列表，最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+945: Top Hat
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+2858: American Beauty
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+1263: Deer Hunter, The
+2311: 2010
+1797: Everest
+1145: Snowriders
+2025-05-10 02:26:03,453 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 1083, 945, 3667, 3768, 3709, 3474, 2438, 1365, 2858, 29, 3822, 194, 2022, 2705, 1263, 2311, 2010, 1797, 1145]
+2025-05-10 02:26:03,453 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 1083, 945, 3667, 3768, 3709, 3474, 2438, 1365], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:26:03,453 - INFO - 样本 1 (Trial 8): NDCG@10 = 1.0000
+2025-05-10 02:26:04,120 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也有对经典剧情片（如《亡命天涯》）和女性视角作品（如《安东尼娅家族》）的兴趣。以下是重排后的推荐顺序：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2795: Vacation
+2025-05-10 02:26:04,120 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也有对经典剧情片（如《亡命天涯》）和女性视角作品（如《安东尼娅家族》）的兴趣。以下是重排后的推荐顺序：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2795: Vacation
+2025-05-10 02:26:04,120 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 396, 3858, 3303, 2720, 1731, 328, 2123, 2795]
+2025-05-10 02:26:04,121 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:26:04,121 - INFO - 样本 0 (Trial 8): NDCG@10 = 1.0000
+2025-05-10 02:26:04,817 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（Final Destination）、黑色幽默（American Psycho）、喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，将最可能观看的类型放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+3768: Braddock: Missing in Action III
+2367: King Kong
+3701: Alien Nation
+122: Boomerang
+428: Bronx Tale, A
+1539: Twin Town
+1563: Dream With the Fishes
+447: Favor, The
+691: Mrs. Winterbourne
+818: Very Brady Sequel, A
+1555: To Have, or Not
+3420: ...And Justice for All
+567: Kika
+1913: Picnic at Hanging Rock
+3824: Autumn in New York
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:04,818 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（Final Destination）、黑色幽默（American Psycho）、喜剧（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的推荐列表，将最可能观看的类型放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+3768: Braddock: Missing in Action III
+2367: King Kong
+3701: Alien Nation
+122: Boomerang
+428: Bronx Tale, A
+1539: Twin Town
+1563: Dream With the Fishes
+447: Favor, The
+691: Mrs. Winterbourne
+818: Very Brady Sequel, A
+1555: To Have, or Not
+3420: ...And Justice for All
+567: Kika
+1913: Picnic at Hanging Rock
+3824: Autumn in New York
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:04,818 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 1722, 3768, 2367, 3701, 122, 428, 1539, 1563, 447, 691, 818, 1555, 3420, 567, 1913, 3824, 2609, 3756]
+2025-05-10 02:26:04,818 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 1722, 3768, 2367, 3701, 122], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:26:04,818 - INFO - 样本 3 (Trial 8): NDCG@10 = 0.0000
+2025-05-10 02:26:05,178 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好科幻/动作（Terminator 2, Event Horizon）、经典/文艺（Boogie Nights, After Life, Edward Scissorhands）、惊悚/悬疑（Rosemary's Baby, From Russia with Love）以及带有黑色幽默或独特风格的电影（High Fidelity, Big Kahuna）。以下是重排后的推荐列表：
+
+1590: Event Horizon
+1103: Rebel Without a Cause
+1965: Repo Man
+2318: Happiness
+3258: Death Becomes Her
+161: Crimson Tide
+2970: Fitzcarraldo
+1251: 8 1/2
+1880: Lawn Dogs
+2144: Sixteen Candles
+3723: Hamlet
+396: Fall Time
+2210: Sabotage
+2637: Mummy's Hand, The
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3413: Impact
+3710: Action Jackson
+876: Police Story 4: Project S (Chao ji ji hua)
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:26:05,179 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好科幻/动作（Terminator 2, Event Horizon）、经典/文艺（Boogie Nights, After Life, Edward Scissorhands）、惊悚/悬疑（Rosemary's Baby, From Russia with Love）以及带有黑色幽默或独特风格的电影（High Fidelity, Big Kahuna）。以下是重排后的推荐列表：
+
+1590: Event Horizon
+1103: Rebel Without a Cause
+1965: Repo Man
+2318: Happiness
+3258: Death Becomes Her
+161: Crimson Tide
+2970: Fitzcarraldo
+1251: 8 1/2
+1880: Lawn Dogs
+2144: Sixteen Candles
+3723: Hamlet
+396: Fall Time
+2210: Sabotage
+2637: Mummy's Hand, The
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The
+381: When a Man Loves a Woman
+3413: Impact
+3710: Action Jackson
+876: Police Story 4: Project S (Chao ji ji hua)
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:26:05,179 - INFO - 模型输出解析 - 解析后电影ID列表: [2, 1590, 1103, 1965, 2318, 3258, 161, 2970, 1251, 8, 1, 2, 1880, 2144, 3723, 396, 2210, 2637, 3695, 381, 3413, 3710, 876, 4, 3245]
+2025-05-10 02:26:05,179 - INFO - NDCG计算 - 预测列表前10项: [2, 1590, 1103, 1965, 2318, 3258, 161, 2970, 1251, 8], 真实目标: 1965, NDCG@10: 0.43067655807339306
+2025-05-10 02:26:05,179 - INFO - 样本 9 (Trial 8): NDCG@10 = 0.4307
+2025-05-10 02:26:06,344 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1053: Normal Life
+1758: Dangerous Beauty
+614: Loaded
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+971: Cat on a Hot Tin Roof
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:06,344 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1236: Trust
+1053: Normal Life
+1758: Dangerous Beauty
+614: Loaded
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+971: Cat on a Hot Tin Roof
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:06,344 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 1858, 373, 1236, 1053, 1758, 614, 2507, 3145, 971, 1537, 2997, 3325, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:26:06,345 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 1858, 373, 1236, 1053, 1758, 614, 2507], 真实目标: 1758, NDCG@10: 0.31546487678572877
+2025-05-10 02:26:06,345 - INFO - 样本 8 (Trial 8): NDCG@10 = 0.3155
+2025-05-10 02:26:18,255 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好科幻、动作、冒险类电影，尤其是带有经典科幻元素（如《星际之门》《超人2》《独立日》）、未来主义设定（如《疯狂的麦克斯》《电子世界争霸战》）以及带有悬疑/外星元素的影片（如《X档案：征服未来》《异形基地》）。以下是重排后的推荐顺序，优先考虑与用户兴趣高度契合的科幻/动作/冒险类电影：
+
+1. 2011: Back to the Future Part II （经典科幻续集，时间旅行题材）
+2. 3699: Starman （约翰·卡彭特执导的科幻/外星人题材，与《星际之门》《X档案》调性相似）
+3. 2532: Conquest of the Planet of the Apes （科幻经典系列，反乌托邦设定）
+4. 555: True Romance （虽然偏犯罪片，但由《异形基地》导演之一编剧，含动作元素）
+5. 2562: Bandits （动作犯罪片，含冒险元素）
+6. 3557: Jennifer 8 （悬疑惊悚片，接近《X档案》的悬疑感）
+7. 515: Remains of the Day, The （若用户喜欢《永远的年轻》的文艺气质）
+8. 1541: Addicted to Love （浪漫喜剧，作为风格调剂）
+9. 2467: Name of the Rose, The （中世纪悬疑，若用户拓展历史题材）
+10. 1357: Shine （传记片，艺术向选择）
+11. 2482: Still Crazy （音乐喜剧，风格差异较大）
+12. 1257: Better Off Dead... （青春喜剧，与当前偏好关联弱）
+13. 310: Rent-a-Kid （家庭喜剧，优先级最低）
+14. 421: Black Beauty （动物题材，关联性低）
+15. 576: Fausto （艺术片，非用户近期偏好）
+16. 1102: American Strays （冷门犯罪片）
+17. 2703: Broken Vessels （冷门剧情片）
+18. 1420: Message to Love: The Isle of Wight Festival （音乐纪录片）
+19. 1174: Grosse Fatigue （法国喜剧，无直接关联）
+20. 3739: Trouble in Paradise （1932年老片，风格差异最大）
+
+最终精简推荐ID列表（按优先级降序）：
+2011, 3699, 2532, 555, 2562, 3557, 515, 1541, 2467, 1357, 2482, 1257, 310, 421, 576, 1102, 2703, 1420, 1174, 3739
+2025-05-10 02:26:18,255 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好科幻、动作、冒险类电影，尤其是带有经典科幻元素（如《星际之门》《超人2》《独立日》）、未来主义设定（如《疯狂的麦克斯》《电子世界争霸战》）以及带有悬疑/外星元素的影片（如《X档案：征服未来》《异形基地》）。以下是重排后的推荐顺序，优先考虑与用户兴趣高度契合的科幻/动作/冒险类电影：
+
+1. 2011: Back to the Future Part II （经典科幻续集，时间旅行题材）
+2. 3699: Starman （约翰·卡彭特执导的科幻/外星人题材，与《星际之门》《X档案》调性相似）
+3. 2532: Conquest of the Planet of the Apes （科幻经典系列，反乌托邦设定）
+4. 555: True Romance （虽然偏犯罪片，但由《异形基地》导演之一编剧，含动作元素）
+5. 2562: Bandits （动作犯罪片，含冒险元素）
+6. 3557: Jennifer 8 （悬疑惊悚片，接近《X档案》的悬疑感）
+7. 515: Remains of the Day, The （若用户喜欢《永远的年轻》的文艺气质）
+8. 1541: Addicted to Love （浪漫喜剧，作为风格调剂）
+9. 2467: Name of the Rose, The （中世纪悬疑，若用户拓展历史题材）
+10. 1357: Shine （传记片，艺术向选择）
+11. 2482: Still Crazy （音乐喜剧，风格差异较大）
+12. 1257: Better Off Dead... （青春喜剧，与当前偏好关联弱）
+13. 310: Rent-a-Kid （家庭喜剧，优先级最低）
+14. 421: Black Beauty （动物题材，关联性低）
+15. 576: Fausto （艺术片，非用户近期偏好）
+16. 1102: American Strays （冷门犯罪片）
+17. 2703: Broken Vessels （冷门剧情片）
+18. 1420: Message to Love: The Isle of Wight Festival （音乐纪录片）
+19. 1174: Grosse Fatigue （法国喜剧，无直接关联）
+20. 3739: Trouble in Paradise （1932年老片，风格差异最大）
+
+最终精简推荐ID列表（按优先级降序）：
+2011, 3699, 2532, 555, 2562, 3557, 515, 1541, 2467, 1357, 2482, 1257, 310, 421, 576, 1102, 2703, 1420, 1174, 3739
+2025-05-10 02:26:18,255 - INFO - 模型输出解析 - 解析后电影ID列表: [2, 1, 2011, 2, 3699, 3, 2532, 4, 555, 5, 2562, 6, 3557, 8, 7, 515, 8, 1541, 9, 2467, 10, 1357, 11, 2482, 12, 1257, 13, 310, 14, 421, 15, 576, 16, 1102, 17, 2703, 18, 1420, 19, 1174, 20, 3739, 1932, 2011, 3699, 2532, 555, 2562, 3557, 515, 1541, 2467, 1357, 2482, 1257, 310, 421, 576, 1102, 2703, 1420, 1174, 3739]
+2025-05-10 02:26:18,255 - INFO - NDCG计算 - 预测列表前10项: [2, 1, 2011, 2, 3699, 3, 2532, 4, 555, 5], 真实目标: 2011, NDCG@10: 0.5
+2025-05-10 02:26:18,256 - INFO - 样本 2 (Trial 8): NDCG@10 = 0.5000
+2025-05-10 02:26:18,256 - INFO - 开始第 9/10 次评估
+2025-05-10 02:26:18,307 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,375 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,385 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,386 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,394 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,394 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,395 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,395 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,395 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:18,395 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:27,790 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+2620: This Is My Father
+1528: Intimate Relations
+3313: Class Reunion
+8: Tom and Huck
+2869: Separation, The (La Séparation)
+3882: Bring It On
+1317: I'm Not Rappaport
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+2025-05-10 02:26:27,790 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+2620: This Is My Father
+1528: Intimate Relations
+3313: Class Reunion
+8: Tom and Huck
+2869: Separation, The (La Séparation)
+3882: Bring It On
+1317: I'm Not Rappaport
+2374: Gung Ho
+863: Celestial Clockwork
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+2025-05-10 02:26:27,790 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 2620, 1528, 3313, 8, 2869, 3882, 1317, 2374, 863, 2993, 2074]
+2025-05-10 02:26:27,790 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 2620], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:26:27,790 - INFO - 样本 4 (Trial 9): NDCG@10 = 1.0000
+2025-05-10 02:26:28,505 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典科幻续集以及带有神秘/超自然元素的电影。以下是重排后的推荐顺序：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+515: Remains of the Day, The
+2467: Name of the Rose, The
+1257: Better Off Dead...
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:26:28,505 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好科幻、动作冒险、经典科幻续集以及带有神秘/超自然元素的电影。以下是重排后的推荐顺序：
+
+3699: Starman
+2011: Back to the Future Part II
+2532: Conquest of the Planet of the Apes
+555: True Romance
+3557: Jennifer 8
+2562: Bandits
+1541: Addicted to Love
+515: Remains of the Day, The
+2467: Name of the Rose, The
+1257: Better Off Dead...
+2482: Still Crazy
+2703: Broken Vessels
+1357: Shine
+1102: American Strays
+1420: Message to Love: The Isle of Wight Festival
+421: Black Beauty
+1174: Grosse Fatigue
+310: Rent-a-Kid
+576: Fausto
+3739: Trouble in Paradise
+2025-05-10 02:26:28,505 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 2467, 1257, 2482, 2703, 1357, 1102, 1420, 421, 1174, 310, 576, 3739]
+2025-05-10 02:26:28,505 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 2467], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:28,505 - INFO - 样本 2 (Trial 9): NDCG@10 = 0.6309
+2025-05-10 02:26:28,822 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:28,822 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+1458: Touch
+3497: Max Dugan Returns
+3801: Anatomy of a Murder
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:28,822 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232, 3761, 2644, 537, 823, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:26:28,822 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 1458, 3497, 3801, 607, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:28,823 - INFO - 样本 5 (Trial 9): NDCG@10 = 0.6309
+2025-05-10 02:26:29,322 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格和恶搞元素），以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+945: Top Hat
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+2025-05-10 02:26:29,322 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、怀旧风格和恶搞元素），以下是重排后的电影ID列表，最可能观看的放在最前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+3768: Braddock: Missing in Action III
+3667: Rent-A-Cop
+945: Top Hat
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+2025-05-10 02:26:29,322 - INFO - 模型输出解析 - 解析后电影ID列表: [1194, 785, 1083, 1145, 3768, 3667, 945, 3709, 3474, 2438, 1365, 29, 3822, 194, 2858, 2311, 2010, 1263, 1797, 2022, 2705]
+2025-05-10 02:26:29,322 - INFO - NDCG计算 - 预测列表前10项: [1194, 785, 1083, 1145, 3768, 3667, 945, 3709, 3474, 2438], 真实目标: 1194, NDCG@10: 1.0
+2025-05-10 02:26:29,322 - INFO - 样本 1 (Trial 9): NDCG@10 = 1.0000
+2025-05-10 02:26:29,828 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（包含动作片、经典电影、黑色幽默、心理惊悚等元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+1103: Rebel Without a Cause  
+2210: Sabotage  
+3710: Action Jackson  
+1965: Repo Man  
+3258: Death Becomes Her  
+2318: Happiness  
+1880: Lawn Dogs  
+396: Fall Time  
+2637: Mummy's Hand, The  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+2144: Sixteen Candles  
+381: When a Man Loves a Woman  
+3723: Hamlet  
+2970: Fitzcarraldo  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)  
+3413: Impact  
+876: Police Story 4: Project S (Chao ji ji hua)
+2025-05-10 02:26:29,828 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（包含动作片、经典电影、黑色幽默、心理惊悚等元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+1590: Event Horizon  
+161: Crimson Tide  
+1103: Rebel Without a Cause  
+2210: Sabotage  
+3710: Action Jackson  
+1965: Repo Man  
+3258: Death Becomes Her  
+2318: Happiness  
+1880: Lawn Dogs  
+396: Fall Time  
+2637: Mummy's Hand, The  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+2144: Sixteen Candles  
+381: When a Man Loves a Woman  
+3723: Hamlet  
+2970: Fitzcarraldo  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)  
+3413: Impact  
+876: Police Story 4: Project S (Chao ji ji hua)
+2025-05-10 02:26:29,828 - INFO - 模型输出解析 - 解析后电影ID列表: [1590, 161, 1103, 2210, 3710, 1965, 3258, 2318, 1880, 396, 2637, 3695, 2144, 381, 3723, 2970, 1251, 8, 1, 2, 3245, 3413, 876, 4]
+2025-05-10 02:26:29,828 - INFO - NDCG计算 - 预测列表前10项: [1590, 161, 1103, 2210, 3710, 1965, 3258, 2318, 1880, 396], 真实目标: 1965, NDCG@10: 0.3562071871080222
+2025-05-10 02:26:29,828 - INFO - 样本 9 (Trial 9): NDCG@10 = 0.3562
+2025-05-10 02:26:29,906 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中的电影类型和风格偏好（如独立电影、文艺片、情感深刻的剧情片），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+3614: Honeymoon in Vegas  
+2137: Charlotte's Web  
+185: Net, The  
+2452: Gate II: Trespassers, The  
+2409: Rocky II  
+1375: Star Trek III: The Search for Spock  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:29,907 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中的电影类型和风格偏好（如独立电影、文艺片、情感深刻的剧情片），以下是重排后的电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3626: 8 1/2 Women  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+3614: Honeymoon in Vegas  
+2137: Charlotte's Web  
+185: Net, The  
+2452: Gate II: Trespassers, The  
+2409: Rocky II  
+1375: Star Trek III: The Search for Spock  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:29,907 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1259, 1815, 359, 2249, 3626, 8, 1, 2, 3859, 2960, 3378, 3312, 3614, 2137, 185, 2452, 2409, 1375, 758]
+2025-05-10 02:26:29,907 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1259, 1815, 359, 2249, 3626, 8], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:26:29,907 - INFO - 样本 6 (Trial 9): NDCG@10 = 0.4307
+2025-05-10 02:26:30,761 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（American Psycho, Final Destination）、喜剧片（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的候选电影列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+818: Very Brady Sequel, A
+2367: King Kong
+3701: Alien Nation
+1539: Twin Town
+447: Favor, The
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+691: Mrs. Winterbourne
+1555: To Have, or Not
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:30,761 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好多样化的电影类型，包括动作片（Gladiator）、惊悚片（American Psycho, Final Destination）、喜剧片（Meet the Parents, Big Momma's House）以及一些cult经典（Showgirls, Supernova）。以下是重排后的候选电影列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+818: Very Brady Sequel, A
+2367: King Kong
+3701: Alien Nation
+1539: Twin Town
+447: Favor, The
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+691: Mrs. Winterbourne
+1555: To Have, or Not
+567: Kika
+3824: Autumn in New York
+1913: Picnic at Hanging Rock
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:30,761 - INFO - 模型输出解析 - 解析后电影ID列表: [21, 370, 33, 1, 3, 1722, 122, 428, 1563, 818, 2367, 3701, 1539, 447, 3420, 3768, 691, 1555, 567, 3824, 1913, 2609, 3756]
+2025-05-10 02:26:30,761 - INFO - NDCG计算 - 预测列表前10项: [21, 370, 33, 1, 3, 1722, 122, 428, 1563, 818], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:26:30,761 - INFO - 样本 3 (Trial 9): NDCG@10 = 0.0000
+2025-05-10 02:26:30,908 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《The Green Mile》《Leaving Las Vegas》《Il Postino》），同时也包含一些轻松幽默的作品（如《Money Pit》《Speechless》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+3858: Cecil B. Demented  
+396: Fall Time  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:26:30,908 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《The Green Mile》《Leaving Las Vegas》《Il Postino》），同时也包含一些轻松幽默的作品（如《Money Pit》《Speechless》）。以下是重排后的电影ID列表，最可能观看的放在最前：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+3858: Cecil B. Demented  
+396: Fall Time  
+3303: Black Tar Heroin: The Dark End of the Street  
+328: Tales From the Crypt Presents: Demon Knight  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+2795: Vacation
+2025-05-10 02:26:30,908 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 3858, 396, 3303, 328, 2123, 2720, 1731, 2795]
+2025-05-10 02:26:30,908 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:26:30,908 - INFO - 样本 0 (Trial 9): NDCG@10 = 1.0000
+2025-05-10 02:26:31,552 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典大片、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+1483: Crash  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1965: Repo Man  
+3878: X: The Unknown  
+3360: Hoosiers  
+249: Immortal Beloved  
+381: When a Man Loves a Woman  
+2154: How Stella Got Her Groove Back  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The  
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:31,552 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典大片、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+1483: Crash  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1965: Repo Man  
+3878: X: The Unknown  
+3360: Hoosiers  
+249: Immortal Beloved  
+381: When a Man Loves a Woman  
+2154: How Stella Got Her Groove Back  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The  
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:31,552 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3878, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3590, 2129, 146]
+2025-05-10 02:26:31,552 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 1483, 3219, 3176, 1965, 3878], 真实目标: 3176, NDCG@10: 0.31546487678572877
+2025-05-10 02:26:31,552 - INFO - 样本 7 (Trial 9): NDCG@10 = 0.3155
+2025-05-10 02:26:31,690 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户近期观看的电影列表，可以看出用户偏好偏向于动作/冒险（Mission to Mars, Gone in 60 Seconds, Romeo Must Die）、剧情/传记（Erin Brockovich, Remember the Titans）、犯罪/惊悚（Boiler Room, Shaft）以及带有情感元素的电影（Broken Hearts Club, The Perfect Storm）。以下是重排后的候选电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+2997: Being John Malkovich
+1537: Shall We Dance? (Shall We Dansu?)
+1053: Normal Life
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3325: Next Best Thing, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:31,690 - INFO - 模型输出解析 - 原始输出:
+根据用户近期观看的电影列表，可以看出用户偏好偏向于动作/冒险（Mission to Mars, Gone in 60 Seconds, Romeo Must Die）、剧情/传记（Erin Brockovich, Remember the Titans）、犯罪/惊悚（Boiler Room, Shaft）以及带有情感元素的电影（Broken Hearts Club, The Perfect Storm）。以下是重排后的候选电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+1858: Mr. Nice Guy
+373: Red Rock West
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+2507: Breakfast of Champions
+971: Cat on a Hot Tin Roof
+3145: Cradle Will Rock, The
+2997: Being John Malkovich
+1537: Shall We Dance? (Shall We Dansu?)
+1053: Normal Life
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3325: Next Best Thing, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:31,690 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 1858, 373, 1758, 1236, 614, 2507, 971, 3145, 2997, 1537, 1053, 3864, 2000, 3933, 3325, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:26:31,690 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 1858, 373, 1758, 1236, 614, 2507, 971], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:26:31,690 - INFO - 样本 8 (Trial 9): NDCG@10 = 0.3562
+2025-05-10 02:26:31,690 - INFO - 开始第 10/10 次评估
+2025-05-10 02:26:31,745 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,745 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,750 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:31,760 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:26:40,926 - INFO - DeepSeek API 异步请求 - 模型输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+863: Celestial Clockwork
+3882: Bring It On
+2025-05-10 02:26:40,926 - INFO - 模型输出解析 - 原始输出:
+3948: Meet the Parents
+516: Renaissance Man
+3618: Small Time Crooks
+145: Bad Boys
+1824: Homegrown
+2227: Lodger, The
+2160: Rosemary's Baby
+1671: Deceiver
+1822: Meet the Deedles
+8: Tom and Huck
+2374: Gung Ho
+2620: This Is My Father
+3313: Class Reunion
+1528: Intimate Relations
+2869: Separation, The (La Séparation)
+1317: I'm Not Rappaport
+2993: Thunderball
+2074: Night Porter, The (Il Portiere di notte)
+863: Celestial Clockwork
+3882: Bring It On
+2025-05-10 02:26:40,926 - INFO - 模型输出解析 - 解析后电影ID列表: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 8, 2374, 2620, 3313, 1528, 2869, 1317, 2993, 2074, 863, 3882]
+2025-05-10 02:26:40,926 - INFO - NDCG计算 - 预测列表前10项: [3948, 516, 3618, 145, 1824, 2227, 2160, 1671, 1822, 8], 真实目标: 3948, NDCG@10: 1.0
+2025-05-10 02:26:40,926 - INFO - 样本 4 (Trial 10): NDCG@10 = 1.0000
+2025-05-10 02:26:42,053 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1483: Crash  
+1965: Repo Man  
+3360: Hoosiers  
+249: Immortal Beloved  
+381: When a Man Loves a Woman  
+2154: How Stella Got Her Groove Back  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+3878: X: The Unknown  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The  
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:42,053 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（动作冒险、惊悚、经典电影、奇幻元素），以下是重排后的电影ID列表，最可能观看的放最前：
+
+2571: Matrix, The  
+3623: Mission: Impossible 2  
+2867: Fright Night  
+2550: Haunting, The  
+3219: Pacific Heights  
+3176: Talented Mr. Ripley, The  
+1483: Crash  
+1965: Repo Man  
+3360: Hoosiers  
+249: Immortal Beloved  
+381: When a Man Loves a Woman  
+2154: How Stella Got Her Groove Back  
+1611: My Own Private Idaho  
+2943: Indochine  
+730: Low Life, The  
+803: Walking and Talking  
+3878: X: The Unknown  
+3590: Lords of Flatbush, The  
+2129: Saltmen of Tibet, The  
+146: Amazing Panda Adventure, The
+2025-05-10 02:26:42,053 - INFO - 模型输出解析 - 解析后电影ID列表: [2571, 3623, 2, 2867, 2550, 3219, 3176, 1483, 1965, 3360, 249, 381, 2154, 1611, 2943, 730, 803, 3878, 3590, 2129, 146]
+2025-05-10 02:26:42,054 - INFO - NDCG计算 - 预测列表前10项: [2571, 3623, 2, 2867, 2550, 3219, 3176, 1483, 1965, 3360], 真实目标: 3176, NDCG@10: 0.3333333333333333
+2025-05-10 02:26:42,054 - INFO - 样本 7 (Trial 10): NDCG@10 = 0.3333
+2025-05-10 02:26:42,484 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+1965: Repo Man  
+1103: Rebel Without a Cause  
+2318: Happiness  
+3710: Action Jackson  
+2210: Sabotage  
+2637: Mummy's Hand, The  
+2970: Fitzcarraldo  
+1880: Lawn Dogs  
+396: Fall Time  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+381: When a Man Loves a Woman  
+3413: Impact  
+2144: Sixteen Candles  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:26:42,484 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（科幻、动作、黑色幽默、心理惊悚、经典电影等），以下是重排后的电影ID列表，最可能观看的放前面：
+
+1590: Event Horizon  
+161: Crimson Tide  
+3258: Death Becomes Her  
+1965: Repo Man  
+1103: Rebel Without a Cause  
+2318: Happiness  
+3710: Action Jackson  
+2210: Sabotage  
+2637: Mummy's Hand, The  
+2970: Fitzcarraldo  
+1880: Lawn Dogs  
+396: Fall Time  
+3695: Toxic Avenger Part III: The Last Temptation of Toxie, The  
+381: When a Man Loves a Woman  
+3413: Impact  
+2144: Sixteen Candles  
+3723: Hamlet  
+876: Police Story 4: Project S (Chao ji ji hua)  
+1251: 8 1/2  
+3245: I Am Cuba (Soy Cuba/Ya Kuba)
+2025-05-10 02:26:42,484 - INFO - 模型输出解析 - 解析后电影ID列表: [1590, 161, 3258, 1965, 1103, 2318, 3710, 2210, 2637, 2970, 1880, 396, 3695, 381, 3413, 2144, 3723, 876, 4, 1251, 8, 1, 2, 3245]
+2025-05-10 02:26:42,484 - INFO - NDCG计算 - 预测列表前10项: [1590, 161, 3258, 1965, 1103, 2318, 3710, 2210, 2637, 2970], 真实目标: 1965, NDCG@10: 0.43067655807339306
+2025-05-10 02:26:42,484 - INFO - 样本 9 (Trial 10): NDCG@10 = 0.4307
+2025-05-10 02:26:42,642 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和90年代末到2000年代初期的商业电影。以下是重排后的电影ID列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+2367: King Kong
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+1539: Twin Town
+3701: Alien Nation
+1555: To Have, or Not
+447: Favor, The
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+567: Kika
+1913: Picnic at Hanging Rock
+3824: Autumn in New York
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:42,642 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出他们偏好动作片、黑色幽默、惊悚元素和90年代末到2000年代初期的商业电影。以下是重排后的电影ID列表，最可能观看的放在前面：
+
+21: Get Shorty
+370: Naked Gun 33 1/3: The Final Insult
+1722: Tomorrow Never Dies
+2367: King Kong
+122: Boomerang
+428: Bronx Tale, A
+1563: Dream With the Fishes
+1539: Twin Town
+3701: Alien Nation
+1555: To Have, or Not
+447: Favor, The
+818: Very Brady Sequel, A
+691: Mrs. Winterbourne
+3420: ...And Justice for All
+3768: Braddock: Missing in Action III
+567: Kika
+1913: Picnic at Hanging Rock
+3824: Autumn in New York
+2609: King of Masks, The (Bian Lian)
+3756: Golden Bowl, The
+2025-05-10 02:26:42,642 - INFO - 模型输出解析 - 解析后电影ID列表: [90, 2000, 21, 370, 33, 1, 3, 1722, 2367, 122, 428, 1563, 1539, 3701, 1555, 447, 818, 691, 3420, 3768, 567, 1913, 3824, 2609, 3756]
+2025-05-10 02:26:42,642 - INFO - NDCG计算 - 预测列表前10项: [90, 2000, 21, 370, 33, 1, 3, 1722, 2367, 122], 真实目标: 3824, NDCG@10: 0.0
+2025-05-10 02:26:42,642 - INFO - 样本 3 (Trial 10): NDCG@10 = 0.0000
+2025-05-10 02:26:43,209 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好偏向于独立电影、文艺片、具有深刻情感或社会议题的电影，以及一些经典文学改编作品。基于这些特点，以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+3626: 8 1/2 Women  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:43,209 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好偏向于独立电影、文艺片、具有深刻情感或社会议题的电影，以及一些经典文学改编作品。基于这些特点，以下是重排后的候选电影ID列表，最可能观看的放最前：
+
+3251: Agnes of God  
+887: Talk of Angels  
+271: Losing Isaiah  
+372: Reality Bites  
+1259: Stand by Me  
+3626: 8 1/2 Women  
+1815: Eden  
+359: I Like It Like That  
+2249: My Blue Heaven  
+3859: Eyes of Tammy Faye, The  
+2960: Beefcake  
+3378: Ogre, The (Der Unhold)  
+3312: McCullochs, The  
+185: Net, The  
+3614: Honeymoon in Vegas  
+2452: Gate II: Trespassers, The  
+1375: Star Trek III: The Search for Spock  
+2409: Rocky II  
+2137: Charlotte's Web  
+758: Jar, The (Khomreh)
+2025-05-10 02:26:43,209 - INFO - 模型输出解析 - 解析后电影ID列表: [3251, 887, 271, 372, 1259, 3626, 8, 1, 2, 1815, 359, 2249, 3859, 2960, 3378, 3312, 185, 3614, 2452, 1375, 2409, 2137, 758]
+2025-05-10 02:26:43,210 - INFO - NDCG计算 - 预测列表前10项: [3251, 887, 271, 372, 1259, 3626, 8, 1, 2, 1815], 真实目标: 372, NDCG@10: 0.43067655807339306
+2025-05-10 02:26:43,210 - INFO - 样本 6 (Trial 10): NDCG@10 = 0.4307
+2025-05-10 02:26:43,482 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些经典改编和轻喜剧（如《钱坑》《无语问苍天》）。以下是重排后的推荐列表：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:26:43,482 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史，可以看出用户偏好剧情丰富、有深度、带有艺术性或文学改编的电影（如《绿里奇迹》《离开拉斯维加斯》《邮差》），同时也包含一些经典改编和轻喜剧（如《钱坑》《无语问苍天》）。以下是重排后的推荐列表：
+
+1695: Artemisia  
+1656: Swept from the Sea  
+1844: Live Flesh  
+3221: Draughtsman's Contract, The  
+41: Richard III  
+1829: Chinese Box  
+2813: Source, The  
+3516: Bell, Book and Candle  
+3497: Max Dugan Returns  
+2579: Following  
+3606: On the Town  
+2755: Light of Day  
+396: Fall Time  
+3858: Cecil B. Demented  
+3303: Black Tar Heroin: The Dark End of the Street  
+2123: All Dogs Go to Heaven  
+2720: Inspector Gadget  
+1731: Mr. Magoo  
+328: Tales From the Crypt Presents: Demon Knight  
+2795: Vacation
+2025-05-10 02:26:43,482 - INFO - 模型输出解析 - 解析后电影ID列表: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579, 3606, 2755, 396, 3858, 3303, 2123, 2720, 1731, 328, 2795]
+2025-05-10 02:26:43,482 - INFO - NDCG计算 - 预测列表前10项: [1695, 1656, 1844, 3221, 41, 1829, 2813, 3516, 3497, 2579], 真实目标: 1695, NDCG@10: 1.0
+2025-05-10 02:26:43,482 - INFO - 样本 0 (Trial 10): NDCG@10 = 1.0000
+2025-05-10 02:26:43,784 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近观看的电影列表，可以看出用户偏好科幻、动作、冒险类电影，尤其对经典科幻系列（如Star Trek、Superman）、赛博朋克元素（如Tron）以及带有外星或超自然元素的电影（如Stargate、X-Files）感兴趣。以下是重排后的推荐列表，最可能观看的优先：
+
+3699: Starman  
+2011: Back to the Future Part II  
+2532: Conquest of the Planet of the Apes  
+555: True Romance  
+3557: Jennifer 8  
+2562: Bandits  
+1541: Addicted to Love  
+515: Remains of the Day, The  
+2467: Name of the Rose, The  
+2482: Still Crazy  
+2703: Broken Vessels  
+1357: Shine  
+1257: Better Off Dead...  
+1102: American Strays  
+1420: Message to Love: The Isle of Wight Festival  
+421: Black Beauty  
+310: Rent-a-Kid  
+1174: Grosse Fatigue  
+576: Fausto  
+3739: Trouble in Paradise
+2025-05-10 02:26:43,784 - INFO - 模型输出解析 - 原始输出:
+根据用户最近观看的电影列表，可以看出用户偏好科幻、动作、冒险类电影，尤其对经典科幻系列（如Star Trek、Superman）、赛博朋克元素（如Tron）以及带有外星或超自然元素的电影（如Stargate、X-Files）感兴趣。以下是重排后的推荐列表，最可能观看的优先：
+
+3699: Starman  
+2011: Back to the Future Part II  
+2532: Conquest of the Planet of the Apes  
+555: True Romance  
+3557: Jennifer 8  
+2562: Bandits  
+1541: Addicted to Love  
+515: Remains of the Day, The  
+2467: Name of the Rose, The  
+2482: Still Crazy  
+2703: Broken Vessels  
+1357: Shine  
+1257: Better Off Dead...  
+1102: American Strays  
+1420: Message to Love: The Isle of Wight Festival  
+421: Black Beauty  
+310: Rent-a-Kid  
+1174: Grosse Fatigue  
+576: Fausto  
+3739: Trouble in Paradise
+2025-05-10 02:26:43,784 - INFO - 模型输出解析 - 解析后电影ID列表: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 2467, 2482, 2703, 1357, 1257, 1102, 1420, 421, 310, 1174, 576, 3739]
+2025-05-10 02:26:43,784 - INFO - NDCG计算 - 预测列表前10项: [3699, 2011, 2532, 555, 3557, 8, 2562, 1541, 515, 2467], 真实目标: 2011, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:43,784 - INFO - 样本 2 (Trial 10): NDCG@10 = 0.6309
+2025-05-10 02:26:44,436 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:44,436 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（剧情片、文学改编、社会议题、浪漫元素），以下是重排后的电影ID列表：
+
+3183: Third Miracle, The
+534: Shadowlands
+3449: Good Mother, The
+280: Murder in the First
+1187: Passion Fish
+3801: Anatomy of a Murder
+1458: Touch
+3497: Max Dugan Returns
+607: Century
+1232: Stalker
+3761: Blood In, Blood Out (a.k.a. Bound by Honor)
+2644: Dracula
+537: Sirens
+823: Collectionneuse, La
+2261: One Crazy Summer
+3247: Sister Act
+2791: Airplane!
+370: Naked Gun 33 1/3: The Final Insult
+1523: Truth or Consequences, N.M.
+3790: Groove
+2025-05-10 02:26:44,436 - INFO - 模型输出解析 - 解析后电影ID列表: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 1232, 3761, 2644, 537, 823, 2261, 3247, 2791, 370, 33, 1, 3, 1523, 3790]
+2025-05-10 02:26:44,437 - INFO - NDCG计算 - 预测列表前10项: [3183, 534, 3449, 280, 1187, 3801, 1458, 3497, 607, 1232], 真实目标: 534, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:44,437 - INFO - 样本 5 (Trial 10): NDCG@10 = 0.6309
+2025-05-10 02:26:44,569 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），我为您重新排序候选电影列表，将最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+945: Top Hat
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+
+这个排序优先考虑了与用户历史观影相似的喜剧类型（如Up in Smoke和Kingpin这类无厘头喜剧），其次是动作喜剧和怀旧风格电影，最后是更严肃的剧情片。
+2025-05-10 02:26:44,569 - INFO - 模型输出解析 - 原始输出:
+根据用户观看历史中展现的偏好（经典喜剧、无厘头幽默、恶搞风格、70年代怀旧电影），我为您重新排序候选电影列表，将最可能观看的放在前面：
+
+1194: Up in Smoke
+785: Kingpin
+1083: Great Race, The
+1145: Snowriders
+945: Top Hat
+3667: Rent-A-Cop
+3768: Braddock: Missing in Action III
+3709: Sleepwalkers
+3474: Retroactive
+2438: Outside Ozona
+1365: Ridicule
+29: City of Lost Children, The
+3822: Girl on the Bridge, The (La Fille sur le Pont)
+194: Smoke
+2858: American Beauty
+2311: 2010
+1263: Deer Hunter, The
+1797: Everest
+2022: Last Temptation of Christ, The
+2705: Late August, Early September (Fin août, début septembre)
+
+这个排序优先考虑了与用户历史观影相似的喜剧类型（如Up in Smoke和Kingpin这类无厘头喜剧），其次是动作喜剧和怀旧风格电影，最后是更严肃的剧情片。
+2025-05-10 02:26:44,569 - INFO - 模型输出解析 - 解析后电影ID列表: [70, 1194, 785, 1083, 1145, 945, 3667, 3768, 3709, 3474, 2438, 1365, 29, 3822, 194, 2858, 2311, 2010, 1263, 1797, 2022, 2705]
+2025-05-10 02:26:44,569 - INFO - NDCG计算 - 预测列表前10项: [70, 1194, 785, 1083, 1145, 945, 3667, 3768, 3709, 3474], 真实目标: 1194, NDCG@10: 0.6309297535714575
+2025-05-10 02:26:44,569 - INFO - 样本 1 (Trial 10): NDCG@10 = 0.6309
+2025-05-10 02:26:45,332 - INFO - DeepSeek API 异步请求 - 模型输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:45,332 - INFO - 模型输出解析 - 原始输出:
+根据用户最近的观影记录，可以看出用户偏好动作片、犯罪剧情片和带有紧张刺激元素的电影（如《Mission to Mars》《Boiler Room》《Gone in 60 Seconds》《Shaft》《Romeo Must Die》），同时也对一些剧情片和运动题材感兴趣（如《Remember the Titans》《Erin Brockovich》）。
+
+以下是重排后的电影ID列表，最可能观看的放在最前：
+
+3107: Backdraft
+1343: Cape Fear
+373: Red Rock West
+1858: Mr. Nice Guy
+1758: Dangerous Beauty
+1236: Trust
+614: Loaded
+1053: Normal Life
+971: Cat on a Hot Tin Roof
+2507: Breakfast of Champions
+3145: Cradle Will Rock, The
+1537: Shall We Dance? (Shall We Dansu?)
+2997: Being John Malkovich
+3325: Next Best Thing, The
+3864: Godzilla 2000 (Gojira ni-sen mireniamu)
+3933: Killer Shrews, The
+3672: Benji
+2566: Doug's 1st Movie
+2049: Happiest Millionaire, The
+1024: Three Caballeros, The
+2025-05-10 02:26:45,332 - INFO - 模型输出解析 - 解析后电影ID列表: [60, 3107, 1343, 373, 1858, 1758, 1236, 614, 1053, 971, 2507, 3145, 1537, 2997, 3325, 3864, 2000, 3933, 3672, 2566, 1, 2049, 1024]
+2025-05-10 02:26:45,332 - INFO - NDCG计算 - 预测列表前10项: [60, 3107, 1343, 373, 1858, 1758, 1236, 614, 1053, 971], 真实目标: 1758, NDCG@10: 0.3562071871080222
+2025-05-10 02:26:45,332 - INFO - 样本 8 (Trial 10): NDCG@10 = 0.3562
+2025-05-10 02:26:45,332 - INFO - Trial 1 平均 NDCG@10: 0.6120
+2025-05-10 02:26:45,332 - INFO - Trial 2 平均 NDCG@10: 0.5756
+2025-05-10 02:26:45,332 - INFO - Trial 3 平均 NDCG@10: 0.5782
+2025-05-10 02:26:45,333 - INFO - Trial 4 平均 NDCG@10: 0.6315
+2025-05-10 02:26:45,333 - INFO - Trial 5 平均 NDCG@10: 0.5346
+2025-05-10 02:26:45,333 - INFO - Trial 6 平均 NDCG@10: 0.5187
+2025-05-10 02:26:45,333 - INFO - Trial 7 平均 NDCG@10: 0.5698
+2025-05-10 02:26:45,333 - INFO - Trial 8 平均 NDCG@10: 0.5664
+2025-05-10 02:26:45,333 - INFO - Trial 9 平均 NDCG@10: 0.5720
+2025-05-10 02:26:45,333 - INFO - Trial 10 平均 NDCG@10: 0.5444
+2025-05-10 02:26:45,333 - INFO - 策略 expert_instruction_id_first_plain 总体平均 NDCG@10: 0.5703
+2025-05-10 02:26:45,333 - INFO - 样本 0: 平均 NDCG@10 = 0.8893, 标准差 = 0.1691
+2025-05-10 02:26:45,333 - INFO - 样本 1: 平均 NDCG@10 = 0.6137, 标准差 = 0.2337
+2025-05-10 02:26:45,333 - INFO - 样本 2: 平均 NDCG@10 = 0.5910, 标准差 = 0.3141
+2025-05-10 02:26:45,333 - INFO - 样本 3: 平均 NDCG@10 = 0.4689, 标准差 = 0.3014
+2025-05-10 02:26:45,333 - INFO - 样本 4: 平均 NDCG@10 = 0.5281, 标准差 = 0.3292
+2025-05-10 02:26:45,333 - INFO - 样本 5: 平均 NDCG@10 = 0.6982, 标准差 = 0.3451
+2025-05-10 02:26:45,333 - INFO - 样本 6: 平均 NDCG@10 = 0.3141, 标准差 = 0.2699
+2025-05-10 02:26:45,333 - INFO - 样本 7: 平均 NDCG@10 = 0.6843, 标准差 = 0.2729
+2025-05-10 02:26:45,333 - INFO - 样本 8: 平均 NDCG@10 = 0.4277, 标准差 = 0.2542
+2025-05-10 02:26:45,333 - INFO - 样本 9: 平均 NDCG@10 = 0.4879, 标准差 = 0.2969
+2025-05-10 02:26:45,334 - INFO - 详细结果已保存至: results_detailed\eval_expert_instruction_id_first_plain_20250510_022645.json
+2025-05-10 02:26:45,334 - INFO - 样本得分CSV已保存至: results_detailed\sample_scores_expert_instruction_id_first_plain.csv
+2025-05-10 02:26:45,334 - INFO - 策略汇总结果已保存至: results_detailed\strategy_summary.md
+2025-05-10 02:26:45,335 - INFO - 所有策略评估完成
