@@ -5,6 +5,10 @@
 请移步 [SII_PE_Exam_2025_Autumn][https://github.com/ArrebolBlack/SII_PE_Exam_2025_Autumn.git]
 如果对你有帮助 请点个star安慰我谢谢
 
+## 最佳实践
+基于本项目提炼的自动化 Prompt Engineering 优化框架，支持多策略自动优化 prompt：
+请移步 [SII_PE_best-practice](https://github.com/ArrebolBlack/SII_PE_best-practice)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ArrebolBlack/SII_PE_2025_summer&type=Date)](https://star-history.com/#ArrebolBlack/SII_PE_2025_summer&Date)
