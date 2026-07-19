@@ -11,4 +11,10 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ArrebolBlack/SII_PE_2025_summer&type=Date)](https://star-history.com/#ArrebolBlack/SII_PE_2025_summer&Date)
+<a href="https://www.star-history.com/?repos=ArrebolBlack%2FSII_PE_2025_summer&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ArrebolBlack/SII_PE_2025_summer&type=date&theme=dark&legend=top-left&sealed_token=pCmzvHavRzbVUTcwIDco808Iv31Gbjj595qny-nJCxy7BEROJr1Mz1pI9vyhiBrw9k6Zi754dUPHewKHGCFLshf7Vr8eVZUuiaApnrRgCOfBDTUrP7l5Mw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ArrebolBlack/SII_PE_2025_summer&type=date&legend=top-left&sealed_token=pCmzvHavRzbVUTcwIDco808Iv31Gbjj595qny-nJCxy7BEROJr1Mz1pI9vyhiBrw9k6Zi754dUPHewKHGCFLshf7Vr8eVZUuiaApnrRgCOfBDTUrP7l5Mw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ArrebolBlack/SII_PE_2025_summer&type=date&legend=top-left&sealed_token=pCmzvHavRzbVUTcwIDco808Iv31Gbjj595qny-nJCxy7BEROJr1Mz1pI9vyhiBrw9k6Zi754dUPHewKHGCFLshf7Vr8eVZUuiaApnrRgCOfBDTUrP7l5Mw" />
+ </picture>
+</a>
